@@ -1,5 +1,6 @@
 ﻿using Dapper;
 using ModelLayer.RegistrationModel;
+using ModelLayer.Response;
 using RepositoryLayer.Context;
 using RepositoryLayer.Entities;
 using RepositoryLayer.Exceptions;
@@ -34,7 +35,7 @@ namespace RepositoryLayer.Services
             return Regex.IsMatch(password, pattern);
         }
 
-        public async Task<ResponseModel<RegisterUserModel>> RegisterUser(RegisterUserModel registerUserModel)
+        public async Task<bool> RegisterUser(RegisterUserModel registerUserModel)
         {
             // If the email is not in proper formate 
             if(!IsEmailValid(registerUserModel.Email))
@@ -87,21 +88,7 @@ namespace RepositoryLayer.Services
                 }
 
                 await connection.ExecuteAsync(query, parameters);
-                var response = new ResponseModel<RegisterUserModel>
-                {
-                    Success = true,
-                    Message = "Registred Successfully!",
-                    /*
-                    Data = new RegisterUserModel
-                    {
-                        FirstName = registerUserModel.FirstName,
-                        LastName = registerUserModel.LastName,
-                        Email = registerUserModel.Email,
-                        Password = "** * ** * **"
-                    }
-                    */
-                };
-                return response;
+                return true;
             }
         }
     }

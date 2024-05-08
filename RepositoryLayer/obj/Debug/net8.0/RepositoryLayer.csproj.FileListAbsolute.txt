@@ -13,3 +13,4 @@ C:\Code\WebAPI\FundooNotes\RepositoryLayer\obj\Debug\net8.0\ref\RepositoryLayer.
 C:\Code\WebAPI\FundooNotes\RepositoryLayer\bin\Debug\net8.0\ModelLayer.dll
 C:\Code\WebAPI\FundooNotes\RepositoryLayer\bin\Debug\net8.0\ModelLayer.pdb
 C:\Code\WebAPI\FundooNotes\RepositoryLayer\obj\Debug\net8.0\Reposito.A0A61804.Up2Date
+C:\Code\WebAPI\FundooNotes\RepositoryLayer\obj\Debug\net8.0\RepositoryLayer.sourcelink.json

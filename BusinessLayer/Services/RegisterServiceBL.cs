@@ -1,5 +1,6 @@
 ﻿using BusinessLayer.Interfaces;
 using ModelLayer.RegistrationModel;
+using ModelLayer.Response;
 using RepositoryLayer.Entities;
 using RepositoryLayer.Interfaces;
 using System;
@@ -19,7 +20,7 @@ namespace BusinessLayer.Services
             _regester = regester;
         }
 
-        public async Task<ResponseModel<RegisterUserModel>> RegisterUser(RegisterUserModel registerUserModel)
+        public async Task<bool> RegisterUser(RegisterUserModel registerUserModel)
         {
             return await _regester.RegisterUser(registerUserModel);
         }

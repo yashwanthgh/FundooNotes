@@ -22,7 +22,6 @@ C:\Code\WebAPI\FundooNotes\FundooNotes\bin\Debug\net8.0\Microsoft.OpenApi.dll
 C:\Code\WebAPI\FundooNotes\FundooNotes\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
 C:\Code\WebAPI\FundooNotes\FundooNotes\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Code\WebAPI\FundooNotes\FundooNotes\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Code\WebAPI\FundooNotes\FundooNotes\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Code\WebAPI\FundooNotes\FundooNotes\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
 C:\Code\WebAPI\FundooNotes\FundooNotes\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Code\WebAPI\FundooNotes\FundooNotes\bin\Debug\net8.0\System.Memory.Data.dll
@@ -74,3 +73,11 @@ C:\Code\WebAPI\FundooNotes\FundooNotes\bin\Debug\net8.0\BCrypt.Net-Next.dll
 C:\Code\WebAPI\FundooNotes\FundooNotes\bin\Debug\net8.0\BouncyCastle.Crypto.dll
 C:\Code\WebAPI\FundooNotes\FundooNotes\bin\Debug\net8.0\ModelLayer.dll
 C:\Code\WebAPI\FundooNotes\FundooNotes\bin\Debug\net8.0\ModelLayer.pdb
+C:\Code\WebAPI\FundooNotes\FundooNotes\obj\Debug\net8.0\FundooNotes.sourcelink.json
+C:\Code\WebAPI\FundooNotes\FundooNotes\bin\Debug\net8.0\NLog.dll
+C:\Code\WebAPI\FundooNotes\FundooNotes\bin\Debug\net8.0\NLog.Extensions.Logging.dll
+C:\Code\WebAPI\FundooNotes\FundooNotes\bin\Debug\net8.0\NLog.Web.AspNetCore.dll
+C:\Code\WebAPI\FundooNotes\FundooNotes\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Code\WebAPI\FundooNotes\FundooNotes\bin\Debug\net8.0\ServiceStack.Client.dll
+C:\Code\WebAPI\FundooNotes\FundooNotes\bin\Debug\net8.0\ServiceStack.Interfaces.dll
+C:\Code\WebAPI\FundooNotes\FundooNotes\bin\Debug\net8.0\ServiceStack.Text.dll

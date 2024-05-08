@@ -1,4 +1,5 @@
 ﻿using ModelLayer.RegistrationModel;
+using ModelLayer.Response;
 using RepositoryLayer.Entities;
 using System;
 using System.Collections.Generic;
@@ -10,6 +11,6 @@ namespace BusinessLayer.Interfaces
 {
     public interface IRegisterBL
     {
-        public Task<ResponseModel<RegisterUserModel>> RegisterUser(RegisterUserModel registerUserModel);
+        public Task<bool> RegisterUser(RegisterUserModel registerUserModel);
     }
 }

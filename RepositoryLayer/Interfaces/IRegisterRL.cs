@@ -1,10 +1,10 @@
 ﻿using ModelLayer.RegistrationModel;
-using RepositoryLayer.Entities;
+using ModelLayer.Response;
 
 namespace RepositoryLayer.Interfaces
 {
     public interface IRegisterRL
     {
-        public Task<ResponseModel<RegisterUserModel>> RegisterUser(RegisterUserModel registerUserModel);
+        public Task<bool> RegisterUser(RegisterUserModel registerUserModel);
     }
 }
