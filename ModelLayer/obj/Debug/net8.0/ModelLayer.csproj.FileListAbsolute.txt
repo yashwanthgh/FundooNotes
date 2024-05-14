@@ -5,8 +5,8 @@ C:\Code\WebAPI\FundooNotes\ModelLayer\obj\Debug\net8.0\ModelLayer.GeneratedMSBui
 C:\Code\WebAPI\FundooNotes\ModelLayer\obj\Debug\net8.0\ModelLayer.AssemblyInfoInputs.cache
 C:\Code\WebAPI\FundooNotes\ModelLayer\obj\Debug\net8.0\ModelLayer.AssemblyInfo.cs
 C:\Code\WebAPI\FundooNotes\ModelLayer\obj\Debug\net8.0\ModelLayer.csproj.CoreCompileInputs.cache
+C:\Code\WebAPI\FundooNotes\ModelLayer\obj\Debug\net8.0\ModelLayer.sourcelink.json
 C:\Code\WebAPI\FundooNotes\ModelLayer\obj\Debug\net8.0\ModelLayer.dll
 C:\Code\WebAPI\FundooNotes\ModelLayer\obj\Debug\net8.0\refint\ModelLayer.dll
 C:\Code\WebAPI\FundooNotes\ModelLayer\obj\Debug\net8.0\ModelLayer.pdb
 C:\Code\WebAPI\FundooNotes\ModelLayer\obj\Debug\net8.0\ref\ModelLayer.dll
-C:\Code\WebAPI\FundooNotes\ModelLayer\obj\Debug\net8.0\ModelLayer.sourcelink.json

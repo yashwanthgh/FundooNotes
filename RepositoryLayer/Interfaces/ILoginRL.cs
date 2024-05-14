@@ -9,6 +9,9 @@ namespace RepositoryLayer.Interfaces
 {
     public interface ILoginRL
     {
-       public Task<string> LoginUser(LoginUserModel loginUserModel);
+        public Task<string> LoginUser(LoginUserModel loginUserModel);
+        public Task<int> UpdatePassword(string email, string currentPassword, string newPassword);
+        public Task<bool> ForgetPassword(string email);
+        public Task<bool> ResetPassword(string token, string password);
     }
 }

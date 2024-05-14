@@ -1,0 +1,266 @@
+2024-05-08 13:14:21.1877|WARN|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-05-08 13:14:21.2967|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7229
+2024-05-08 13:14:21.2967|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141
+2024-05-08 13:14:21.2967|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-05-08 13:14:21.2967|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-05-08 13:14:21.2967|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Code\WebAPI\FundooNotes\FundooNotes
+2024-05-08 13:14:30.8975|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger - - -
+2024-05-08 13:14:31.0627|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger - 301 0 - 169.9617ms
+2024-05-08 13:14:31.0683|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/index.html - - -
+2024-05-08 13:14:31.1544|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/index.html - 200 - text/html;charset=utf-8 86.1709ms
+2024-05-08 13:14:31.1708|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/swagger-ui.css - - -
+2024-05-08 13:14:31.1708|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/swagger-ui-bundle.js - - -
+2024-05-08 13:14:31.1708|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/swagger-ui-standalone-preset.js - - -
+2024-05-08 13:14:31.1708|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/_vs/browserLink - - -
+2024-05-08 13:14:31.1708|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/_framework/aspnetcore-browser-refresh.js - - -
+2024-05-08 13:14:31.2020|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 30.2469ms
+2024-05-08 13:14:31.2382|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-08 13:14:31.2382|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-08 13:14:31.2426|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/swagger-ui.css - 200 144929 text/css 72.1834ms
+2024-05-08 13:14:31.2426|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/swagger-ui-standalone-preset.js - 200 312163 text/javascript 71.3800ms
+2024-05-08 13:14:31.2611|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-08 13:14:31.2611|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/swagger-ui-bundle.js - 200 1061536 text/javascript 90.7141ms
+2024-05-08 13:14:31.2857|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 114.0153ms
+2024-05-08 13:14:31.4497|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/v1/swagger.json - - -
+2024-05-08 13:14:31.4824|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/favicon-32x32.png - - -
+2024-05-08 13:14:31.4824|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-05-08 13:14:31.4824|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/favicon-32x32.png - 200 628 image/png 2.0458ms
+2024-05-08 13:14:31.5784|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 129.0007ms
+2024-05-08 13:16:06.3109|WARN|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-05-08 13:16:06.3805|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7229
+2024-05-08 13:16:06.3819|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141
+2024-05-08 13:16:06.3819|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-05-08 13:16:06.3819|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-05-08 13:16:06.3819|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Code\WebAPI\FundooNotes\FundooNotes
+2024-05-08 13:16:06.9621|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger - - -
+2024-05-08 13:16:07.1306|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger - 301 0 - 175.3759ms
+2024-05-08 13:16:07.1366|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/index.html - - -
+2024-05-08 13:16:07.2174|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/index.html - 200 - text/html;charset=utf-8 80.7378ms
+2024-05-08 13:16:07.2174|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/swagger-ui.css - - -
+2024-05-08 13:16:07.2174|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/swagger-ui-standalone-preset.js - - -
+2024-05-08 13:16:07.2174|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/swagger-ui-bundle.js - - -
+2024-05-08 13:16:07.2174|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/_framework/aspnetcore-browser-refresh.js - - -
+2024-05-08 13:16:07.2174|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/_vs/browserLink - - -
+2024-05-08 13:16:07.2428|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 16.1965ms
+2024-05-08 13:16:07.2782|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-08 13:16:07.2782|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-08 13:16:07.2782|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/swagger-ui.css - 200 144929 text/css 56.1628ms
+2024-05-08 13:16:07.2782|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/swagger-ui-standalone-preset.js - 200 312163 text/javascript 55.3228ms
+2024-05-08 13:16:07.3104|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-08 13:16:07.3104|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/swagger-ui-bundle.js - 200 1061536 text/javascript 84.9725ms
+2024-05-08 13:16:07.3104|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 86.5331ms
+2024-05-08 13:16:07.5083|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/v1/swagger.json - - -
+2024-05-08 13:16:07.6163|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 108.4139ms
+2024-05-08 15:40:57.7414|WARN|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-05-08 15:40:57.8846|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7229
+2024-05-08 15:40:57.8846|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141
+2024-05-08 15:40:57.8846|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-05-08 15:40:57.8846|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-05-08 15:40:57.8846|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Code\WebAPI\FundooNotes\FundooNotes
+2024-05-08 15:40:58.9481|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger - - -
+2024-05-08 15:40:59.7094|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger - 301 0 - 775.6273ms
+2024-05-08 15:40:59.8278|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/index.html - - -
+2024-05-08 15:41:00.3981|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/index.html - 200 - text/html;charset=utf-8 570.5508ms
+2024-05-08 15:41:00.3981|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/swagger-ui.css - - -
+2024-05-08 15:41:00.3981|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/swagger-ui-bundle.js - - -
+2024-05-08 15:41:00.3981|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/swagger-ui-standalone-preset.js - - -
+2024-05-08 15:41:00.4522|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/_framework/aspnetcore-browser-refresh.js - - -
+2024-05-08 15:41:00.4522|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/_vs/browserLink - - -
+2024-05-08 15:41:00.4997|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 47.7812ms
+2024-05-08 15:41:00.7975|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-08 15:41:00.7975|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/swagger-ui.css - 200 144929 text/css 401.3466ms
+2024-05-08 15:41:00.8448|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-08 15:41:00.8542|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/swagger-ui-standalone-preset.js - 200 312163 text/javascript 447.6393ms
+2024-05-08 15:41:00.9147|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 456.3538ms
+2024-05-08 15:41:00.9147|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-08 15:41:00.9147|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/swagger-ui-bundle.js - 200 1061536 text/javascript 519.0658ms
+2024-05-08 15:41:01.3798|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/v1/swagger.json - - -
+2024-05-08 15:41:01.5779|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 198.5395ms
+2024-05-08 15:42:33.3727|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/api/getUsersByFirstLetter?firstLetter=S - - -
+2024-05-08 15:42:33.3845|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.UsersController.GetUsersByFirstLetter (FundooNotes)'
+2024-05-08 15:42:33.4380|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetUsersByFirstLetter", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUsersByFirstLetter(Char) on controller FundooNotes.Controllers.UsersController (FundooNotes).
+2024-05-08 15:42:34.0885|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.UsersController.GetUsersByFirstLetter (FundooNotes) in 645.5661ms
+2024-05-08 15:42:34.0885|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.UsersController.GetUsersByFirstLetter (FundooNotes)'
+2024-05-08 15:42:34.0885|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.|Microsoft.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near '%'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 434
+   at RepositoryLayer.Services.UsersServiceRL.GetUserByNameLike(Char firstCharacter) in C:\Code\WebAPI\FundooNotes\RepositoryLayer\Services\UsersServiceRL.cs:line 28
+   at BusinessLayer.Services.UsersServiceBL.GetUserNameLike(Char firstCharacter) in C:\Code\WebAPI\FundooNotes\BusinessLayer\Services\UsersServiceBL.cs:line 23
+   at FundooNotes.Controllers.UsersController.GetUsersByFirstLetter(Char firstLetter) in C:\Code\WebAPI\FundooNotes\FundooNotes\Controllers\UsersController.cs:line 24
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+ClientConnectionId:fea1e1b5-0659-47dd-a57f-4143e9cb6b8f
+Error Number:102,State:1,Class:15
+2024-05-08 15:42:34.2039|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/api/getUsersByFirstLetter?firstLetter=S - 500 - text/plain;+charset=utf-8 835.2473ms
+2024-05-08 15:44:37.8523|WARN|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-05-08 15:44:37.9312|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7229
+2024-05-08 15:44:37.9312|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141
+2024-05-08 15:44:37.9312|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-05-08 15:44:37.9312|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-05-08 15:44:37.9312|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Code\WebAPI\FundooNotes\FundooNotes
+2024-05-08 15:44:38.5284|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger - - -
+2024-05-08 15:44:38.7504|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger - 301 0 - 227.3647ms
+2024-05-08 15:44:38.7637|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/index.html - - -
+2024-05-08 15:44:38.9092|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/swagger-ui.css - - -
+2024-05-08 15:44:38.9178|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/swagger-ui-bundle.js - - -
+2024-05-08 15:44:38.9270|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/swagger-ui-standalone-preset.js - - -
+2024-05-08 15:44:38.9520|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/_framework/aspnetcore-browser-refresh.js - - -
+2024-05-08 15:44:38.9603|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/_vs/browserLink - - -
+2024-05-08 15:44:38.9603|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/index.html - 200 - text/html;charset=utf-8 198.5091ms
+2024-05-08 15:44:38.9833|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 31.2052ms
+2024-05-08 15:44:39.0141|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-08 15:44:39.0141|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-08 15:44:39.0141|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/swagger-ui-standalone-preset.js - 200 312163 text/javascript 88.0201ms
+2024-05-08 15:44:39.0141|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/swagger-ui.css - 200 144929 text/css 107.8709ms
+2024-05-08 15:44:39.0962|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-08 15:44:39.0971|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/swagger-ui-bundle.js - 200 1061536 text/javascript 179.3732ms
+2024-05-08 15:44:39.1548|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 198.5106ms
+2024-05-08 15:44:39.4808|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/v1/swagger.json - - -
+2024-05-08 15:44:39.6820|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 204.6112ms
+2024-05-08 15:44:56.7529|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/api/getUsersByFirstLetter?firstLetter=S - - -
+2024-05-08 15:44:56.7625|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.UsersController.GetUsersByFirstLetter (FundooNotes)'
+2024-05-08 15:44:56.8041|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetUsersByFirstLetter", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUsersByFirstLetter(Char) on controller FundooNotes.Controllers.UsersController (FundooNotes).
+2024-05-08 15:44:57.3578|INFO|FundooNotes.Controllers.RegisterController|Getting Users Information
+2024-05-08 15:44:57.3658|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ModelLayer.UsersModel.UserGetModel, ModelLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-08 15:44:57.4110|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.UsersController.GetUsersByFirstLetter (FundooNotes) in 589.4664ms
+2024-05-08 15:44:57.4110|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.UsersController.GetUsersByFirstLetter (FundooNotes)'
+2024-05-08 15:44:57.4110|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/api/getUsersByFirstLetter?firstLetter=S - 200 - application/json;+charset=utf-8 662.1615ms
+2024-05-08 15:45:59.1739|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/api/getUsersByFirstLetter?firstLetter=I - - -
+2024-05-08 15:45:59.1780|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.UsersController.GetUsersByFirstLetter (FundooNotes)'
+2024-05-08 15:45:59.1780|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetUsersByFirstLetter", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUsersByFirstLetter(Char) on controller FundooNotes.Controllers.UsersController (FundooNotes).
+2024-05-08 15:45:59.1970|INFO|FundooNotes.Controllers.RegisterController|Getting Users Information
+2024-05-08 15:45:59.1970|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ModelLayer.UsersModel.UserGetModel, ModelLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-08 15:45:59.1970|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.UsersController.GetUsersByFirstLetter (FundooNotes) in 17.7951ms
+2024-05-08 15:45:59.1970|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.UsersController.GetUsersByFirstLetter (FundooNotes)'
+2024-05-08 15:45:59.1970|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/api/getUsersByFirstLetter?firstLetter=I - 200 - application/json;+charset=utf-8 27.3335ms
+2024-05-08 15:46:31.2438|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/api/getUsersByFirstLetter?firstLetter=J - - -
+2024-05-08 15:46:31.2438|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.UsersController.GetUsersByFirstLetter (FundooNotes)'
+2024-05-08 15:46:31.2438|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetUsersByFirstLetter", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUsersByFirstLetter(Char) on controller FundooNotes.Controllers.UsersController (FundooNotes).
+2024-05-08 15:46:31.2550|INFO|FundooNotes.Controllers.RegisterController|Getting Users Information
+2024-05-08 15:46:31.2550|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ModelLayer.UsersModel.UserGetModel, ModelLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-08 15:46:31.2550|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.UsersController.GetUsersByFirstLetter (FundooNotes) in 6.8257ms
+2024-05-08 15:46:31.2550|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.UsersController.GetUsersByFirstLetter (FundooNotes)'
+2024-05-08 15:46:31.2550|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/api/getUsersByFirstLetter?firstLetter=J - 200 - application/json;+charset=utf-8 14.9049ms
+2024-05-08 15:47:50.4469|WARN|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-05-08 15:47:50.5913|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7229
+2024-05-08 15:47:50.5913|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141
+2024-05-08 15:47:50.5913|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-05-08 15:47:50.5913|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-05-08 15:47:50.5913|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Code\WebAPI\FundooNotes\FundooNotes
+2024-05-08 15:47:51.4115|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger - - -
+2024-05-08 15:47:51.6198|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger - 301 0 - 218.6618ms
+2024-05-08 15:47:51.6198|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/index.html - - -
+2024-05-08 15:47:51.7904|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/index.html - 200 - text/html;charset=utf-8 160.0404ms
+2024-05-08 15:47:51.7904|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/swagger-ui-bundle.js - - -
+2024-05-08 15:47:51.7904|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/_framework/aspnetcore-browser-refresh.js - - -
+2024-05-08 15:47:51.7904|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/swagger-ui-standalone-preset.js - - -
+2024-05-08 15:47:51.7904|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/swagger-ui.css - - -
+2024-05-08 15:47:51.8182|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/_vs/browserLink - - -
+2024-05-08 15:47:51.8182|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 19.5571ms
+2024-05-08 15:47:51.8787|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-08 15:47:51.8787|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-08 15:47:51.8825|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/swagger-ui-standalone-preset.js - 200 312163 text/javascript 81.3627ms
+2024-05-08 15:47:51.8825|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/swagger-ui.css - 200 144929 text/css 82.5238ms
+2024-05-08 15:47:51.9685|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-08 15:47:51.9685|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/swagger-ui-bundle.js - 200 1061536 text/javascript 169.3823ms
+2024-05-08 15:47:51.9951|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 182.6645ms
+2024-05-08 15:47:52.4126|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/v1/swagger.json - - -
+2024-05-08 15:47:52.6198|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 207.9246ms
+2024-05-08 15:48:03.4871|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/api/getUsersByFirstLetter?firstLetter=S - - -
+2024-05-08 15:48:03.4957|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.UsersController.GetUsersByFirstLetter (FundooNotes)'
+2024-05-08 15:48:03.5431|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetUsersByFirstLetter", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUsersByFirstLetter(Char) on controller FundooNotes.Controllers.UsersController (FundooNotes).
+2024-05-08 15:48:04.2348|INFO|FundooNotes.Controllers.RegisterController|Getting Users Information
+2024-05-08 15:48:04.2428|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ModelLayer.UsersModel.UserGetModel, ModelLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-08 15:48:04.2639|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.UsersController.GetUsersByFirstLetter (FundooNotes) in 715.0009ms
+2024-05-08 15:48:04.2639|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.UsersController.GetUsersByFirstLetter (FundooNotes)'
+2024-05-08 15:48:04.2639|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/api/getUsersByFirstLetter?firstLetter=S - 200 - application/json;+charset=utf-8 778.4280ms
+2024-05-08 16:01:12.9886|WARN|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-05-08 16:01:13.0986|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7229
+2024-05-08 16:01:13.0986|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141
+2024-05-08 16:01:13.0986|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-05-08 16:01:13.0986|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-05-08 16:01:13.0986|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Code\WebAPI\FundooNotes\FundooNotes
+2024-05-08 16:01:13.6848|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger - - -
+2024-05-08 16:01:13.9084|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger - 301 0 - 227.3922ms
+2024-05-08 16:01:13.9164|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/index.html - - -
+2024-05-08 16:01:14.0529|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/index.html - 200 - text/html;charset=utf-8 136.5204ms
+2024-05-08 16:01:14.0529|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/swagger-ui.css - - -
+2024-05-08 16:01:14.0529|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/swagger-ui-bundle.js - - -
+2024-05-08 16:01:14.0529|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/swagger-ui-standalone-preset.js - - -
+2024-05-08 16:01:14.0658|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/_vs/browserLink - - -
+2024-05-08 16:01:14.0658|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/_framework/aspnetcore-browser-refresh.js - - -
+2024-05-08 16:01:14.0908|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 20.0190ms
+2024-05-08 16:01:14.1435|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-08 16:01:14.1435|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-08 16:01:14.1435|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/swagger-ui.css - 200 144929 text/css 89.2328ms
+2024-05-08 16:01:14.1435|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/swagger-ui-standalone-preset.js - 200 312163 text/javascript 89.0868ms
+2024-05-08 16:01:14.1808|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-08 16:01:14.1808|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/swagger-ui-bundle.js - 200 1061536 text/javascript 123.7843ms
+2024-05-08 16:01:14.2170|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 153.5361ms
+2024-05-08 16:01:14.9611|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/v1/swagger.json - - -
+2024-05-08 16:01:15.0714|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 365.3040ms
+2024-05-08 16:01:27.0545|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/api/getUsersByFirstLetter?firstLetter=S - - -
+2024-05-08 16:01:27.0545|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.UsersController.GetUsersByFirstLetter (FundooNotes)'
+2024-05-08 16:01:27.0922|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetUsersByFirstLetter", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUsersByFirstLetter(Char) on controller FundooNotes.Controllers.UsersController (FundooNotes).
+2024-05-08 16:01:27.5976|INFO|FundooNotes.Controllers.RegisterController|Getting Users Information
+2024-05-08 16:01:27.5976|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ModelLayer.UsersModel.UserGetModel, ModelLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-08 16:01:27.6175|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.UsersController.GetUsersByFirstLetter (FundooNotes) in 520.2961ms
+2024-05-08 16:01:27.6175|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.UsersController.GetUsersByFirstLetter (FundooNotes)'
+2024-05-08 16:01:27.6175|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/api/getUsersByFirstLetter?firstLetter=S - 200 - application/json;+charset=utf-8 564.5336ms
+2024-05-08 21:43:41.1650|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141
+2024-05-08 21:43:41.2078|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-05-08 21:43:41.2078|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-05-08 21:43:41.2078|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Code\WebAPI\FundooNotes\FundooNotes
+2024-05-08 21:43:42.8313|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/swagger - - -
+2024-05-08 21:43:42.9489|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/swagger - 301 0 - 118.2606ms
+2024-05-08 21:43:42.9933|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/swagger/index.html - - -
+2024-05-08 21:43:43.1349|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/swagger/index.html - 200 - text/html;charset=utf-8 141.4929ms
+2024-05-08 21:43:43.2297|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/swagger/swagger-ui.css - - -
+2024-05-08 21:43:43.2435|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/swagger/swagger-ui-standalone-preset.js - - -
+2024-05-08 21:43:43.2435|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/swagger/swagger-ui-bundle.js - - -
+2024-05-08 21:43:43.3102|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-08 21:43:43.3102|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-08 21:43:43.3196|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/swagger/swagger-ui.css - 200 144929 text/css 89.9203ms
+2024-05-08 21:43:43.3196|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/swagger/swagger-ui-standalone-preset.js - 200 312163 text/javascript 76.1501ms
+2024-05-08 21:43:43.3423|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-08 21:43:43.3423|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/swagger/swagger-ui-bundle.js - 200 1061536 text/javascript 99.0122ms
+2024-05-08 21:43:43.8309|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/swagger/v1/swagger.json - - -
+2024-05-08 21:43:43.8792|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/swagger/favicon-32x32.png - - -
+2024-05-08 21:43:43.8792|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-05-08 21:43:43.8792|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/swagger/favicon-32x32.png - 200 628 image/png 1.7479ms
+2024-05-08 21:43:44.0902|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 259.3303ms
+2024-05-08 21:45:07.7055|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141
+2024-05-08 21:45:07.7561|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-05-08 21:45:07.7561|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-05-08 21:45:07.7561|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Code\WebAPI\FundooNotes\FundooNotes
+2024-05-08 21:45:08.0031|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/swagger/index.html - - -
+2024-05-08 21:45:08.2506|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/swagger/index.html - 200 - text/html;charset=utf-8 246.6088ms
+2024-05-08 21:45:08.6531|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/swagger/v1/swagger.json - - -
+2024-05-08 21:45:08.7660|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 112.7981ms
+2024-05-08 21:45:26.4763|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141
+2024-05-08 21:45:26.5198|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-05-08 21:45:26.5198|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-05-08 21:45:26.5198|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Code\WebAPI\FundooNotes\FundooNotes
+2024-05-08 21:45:27.5980|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/swagger/index.html - - -
+2024-05-08 21:45:27.9220|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/swagger/index.html - 200 - text/html;charset=utf-8 321.1757ms
+2024-05-08 21:45:28.4833|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/swagger/v1/swagger.json - - -
+2024-05-08 21:45:28.6813|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 197.8910ms

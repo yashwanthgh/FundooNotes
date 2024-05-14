@@ -1,0 +1,399 @@
+2024-05-14 11:16:33.4287|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Yash\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-14 11:16:33.9814|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141
+2024-05-14 11:16:33.9868|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-05-14 11:16:33.9868|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-05-14 11:16:33.9868|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Code\WebAPI\FundooNotes\FundooNotes
+2024-05-14 11:16:34.8886|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/swagger/index.html - - -
+2024-05-14 11:16:35.3616|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/swagger/index.html - 200 - text/html;charset=utf-8 479.1786ms
+2024-05-14 11:16:35.3763|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/_vs/browserLink - - -
+2024-05-14 11:16:35.3763|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/_framework/aspnetcore-browser-refresh.js - - -
+2024-05-14 11:16:35.3763|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 3.2833ms
+2024-05-14 11:16:35.5950|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 219.2277ms
+2024-05-14 11:16:35.6924|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/swagger/v1/swagger.json - - -
+2024-05-14 11:16:35.8246|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 132.1817ms
+2024-05-14 11:17:49.6252|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5141/api/login - application/json 67
+2024-05-14 11:17:49.6386|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect.
+2024-05-14 11:17:49.6386|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.LoginController.UserLogin (FundooNotes)'
+2024-05-14 11:17:49.6790|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "UserLogin", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserLogin(ModelLayer.RegistrationModel.LoginUserModel) on controller FundooNotes.Controllers.LoginController (FundooNotes).
+2024-05-14 11:17:50.8559|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'ModelLayer.Response.ResponseDataModel`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-05-14 11:17:50.8559|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.LoginController.UserLogin (FundooNotes) in 1182.1624ms
+2024-05-14 11:17:50.8559|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.LoginController.UserLogin (FundooNotes)'
+2024-05-14 11:17:50.8721|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5141/api/login - 200 - application/json;+charset=utf-8 1246.9358ms
+2024-05-14 11:18:26.9817|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5141/api/forget-password?Email=yugnasura%40gmail.com - - 0
+2024-05-14 11:18:26.9817|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.LoginController.ForgotPassword (FundooNotes)'
+2024-05-14 11:18:27.0014|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ForgotPassword", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ForgotPassword(System.String) on controller FundooNotes.Controllers.LoginController (FundooNotes).
+2024-05-14 11:18:31.3355|INFO|FundooNotes.Controllers.LoginController|Email Sent
+2024-05-14 11:18:31.3355|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'ModelLayer.Response.ResponseStringModel'.
+2024-05-14 11:18:31.3470|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.LoginController.ForgotPassword (FundooNotes) in 4345.0581ms
+2024-05-14 11:18:31.3470|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.LoginController.ForgotPassword (FundooNotes)'
+2024-05-14 11:18:31.3470|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5141/api/forget-password?Email=yugnasura%40gmail.com - 200 - application/json;+charset=utf-8 4371.5671ms
+2024-05-14 11:19:22.6743|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 PATCH http://localhost:5141/api/reset-password?Token=%20f-x6tt3e2qwdiCkDueSWT1OD3SvvQgOYDIF0YaNPXY0&Password=Yashwanth%401234 - - -
+2024-05-14 11:19:22.6803|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.LoginController.ResetPassword (FundooNotes)'
+2024-05-14 11:19:22.6803|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ResetPassword", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ResetPassword(System.String, System.String) on controller FundooNotes.Controllers.LoginController (FundooNotes).
+2024-05-14 11:19:22.9320|ERROR|FundooNotes.Controllers.LoginController|Invalid token
+2024-05-14 11:19:22.9320|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'ModelLayer.Response.ResponseStringModel'.
+2024-05-14 11:19:22.9320|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.LoginController.ResetPassword (FundooNotes) in 244.6628ms
+2024-05-14 11:19:22.9320|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.LoginController.ResetPassword (FundooNotes)'
+2024-05-14 11:19:22.9320|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 PATCH http://localhost:5141/api/reset-password?Token=%20f-x6tt3e2qwdiCkDueSWT1OD3SvvQgOYDIF0YaNPXY0&Password=Yashwanth%401234 - 200 - application/json;+charset=utf-8 260.7547ms
+2024-05-14 11:19:48.0056|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 PATCH http://localhost:5141/api/reset-password?Token=f-x6tt3e2qwdiCkDueSWT1OD3SvvQgOYDIF0YaNPXY0&Password=Yashwanth%401234 - - -
+2024-05-14 11:19:48.0056|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.LoginController.ResetPassword (FundooNotes)'
+2024-05-14 11:19:48.0056|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ResetPassword", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ResetPassword(System.String, System.String) on controller FundooNotes.Controllers.LoginController (FundooNotes).
+2024-05-14 11:19:48.2037|INFO|FundooNotes.Controllers.LoginController|Password has been reset
+2024-05-14 11:19:48.2037|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'ModelLayer.Response.ResponseStringModel'.
+2024-05-14 11:19:48.2037|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.LoginController.ResetPassword (FundooNotes) in 191.2445ms
+2024-05-14 11:19:48.2037|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.LoginController.ResetPassword (FundooNotes)'
+2024-05-14 11:19:48.2037|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 PATCH http://localhost:5141/api/reset-password?Token=f-x6tt3e2qwdiCkDueSWT1OD3SvvQgOYDIF0YaNPXY0&Password=Yashwanth%401234 - 200 - application/json;+charset=utf-8 200.9748ms
+2024-05-14 11:20:04.3345|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5141/api/login - application/json 68
+2024-05-14 11:20:04.3345|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.LoginController.UserLogin (FundooNotes)'
+2024-05-14 11:20:04.3345|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "UserLogin", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserLogin(ModelLayer.RegistrationModel.LoginUserModel) on controller FundooNotes.Controllers.LoginController (FundooNotes).
+2024-05-14 11:20:04.5384|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'ModelLayer.Response.ResponseDataModel`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-05-14 11:20:04.5384|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.LoginController.UserLogin (FundooNotes) in 203.1188ms
+2024-05-14 11:20:04.5384|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.LoginController.UserLogin (FundooNotes)'
+2024-05-14 11:20:04.5384|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5141/api/login - 200 - application/json;+charset=utf-8 205.4065ms
+2024-05-14 11:20:59.6712|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/api/show-notes - - -
+2024-05-14 11:20:59.7378|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.NotesController.DisplayNote (FundooNotes)'
+2024-05-14 11:20:59.7378|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "DisplayNote", controller = "Notes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DisplayNote() on controller FundooNotes.Controllers.NotesController (FundooNotes).
+2024-05-14 11:20:59.9060|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'ModelLayer.Response.ResponseDataModel`1[[System.Collections.Generic.IEnumerable`1[[ModelLayer.NotesModel.NoteResponse, ModelLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-05-14 11:20:59.9060|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.NotesController.DisplayNote (FundooNotes) in 166.9323ms
+2024-05-14 11:20:59.9060|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.NotesController.DisplayNote (FundooNotes)'
+2024-05-14 11:20:59.9060|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/api/show-notes - 200 - application/json;+charset=utf-8 238.5482ms
+2024-05-14 11:21:23.0687|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/api/show-archived - - -
+2024-05-14 11:21:23.0687|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.NotesController.GetArchivedNotes (FundooNotes)'
+2024-05-14 11:21:23.0687|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetArchivedNotes", controller = "Notes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetArchivedNotes() on controller FundooNotes.Controllers.NotesController (FundooNotes).
+2024-05-14 11:21:23.3842|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'ModelLayer.Response.ResponseDataModel`1[[System.Collections.Generic.IEnumerable`1[[ModelLayer.NotesModel.NoteResponse, ModelLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-05-14 11:21:23.3842|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.NotesController.GetArchivedNotes (FundooNotes) in 302.6055ms
+2024-05-14 11:21:23.3842|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.NotesController.GetArchivedNotes (FundooNotes)'
+2024-05-14 11:21:23.3842|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/api/show-archived - 200 - application/json;+charset=utf-8 316.4793ms
+2024-05-14 11:22:31.7525|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5141/api/add-label - application/json 38
+2024-05-14 11:22:31.7628|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.LabelController.AddLabel (FundooNotes)'
+2024-05-14 11:22:31.7628|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "AddLabel", controller = "Label"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddLabel(ModelLayer.NotesModel.CreateLabelModel) on controller FundooNotes.Controllers.LabelController (FundooNotes).
+2024-05-14 11:22:32.9516|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'ModelLayer.Response.ResponseStringModel'.
+2024-05-14 11:22:32.9516|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.LabelController.AddLabel (FundooNotes) in 1182.9523ms
+2024-05-14 11:22:32.9516|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.LabelController.AddLabel (FundooNotes)'
+2024-05-14 11:22:32.9516|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5141/api/add-label - 200 - application/json;+charset=utf-8 1200.4612ms
+2024-05-14 11:29:04.4674|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Yash\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-14 11:29:04.8586|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141
+2024-05-14 11:29:04.8626|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-05-14 11:29:04.8626|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-05-14 11:29:04.8626|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Code\WebAPI\FundooNotes\FundooNotes
+2024-05-14 11:29:05.3296|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/swagger/index.html - - -
+2024-05-14 11:29:05.7935|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/swagger/index.html - 200 - text/html;charset=utf-8 474.3333ms
+2024-05-14 11:29:05.8202|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/_vs/browserLink - - -
+2024-05-14 11:29:05.8202|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/_framework/aspnetcore-browser-refresh.js - - -
+2024-05-14 11:29:05.8202|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 5.0194ms
+2024-05-14 11:29:05.8828|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 62.6146ms
+2024-05-14 11:29:06.0331|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/swagger/v1/swagger.json - - -
+2024-05-14 11:29:06.1814|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 148.3934ms
+2024-05-14 11:30:27.0847|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5141/api/add-colleboration - application/json 30
+2024-05-14 11:30:27.1991|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Failed to validate the token.|Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10503: Signature validation failed. Token does not have a kid. Keys tried: '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-05-14 11:30:27.1991|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Bearer was not authenticated. Failure message: IDX10503: Signature validation failed. Token does not have a kid. Keys tried: '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2024-05-14 11:30:27.1991|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect.
+2024-05-14 11:30:27.2139|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-14 11:30:27.2139|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged.
+2024-05-14 11:30:27.2139|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5141/api/add-colleboration - 401 0 - 136.3842ms
+2024-05-14 11:47:10.7486|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Yash\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-14 11:47:11.2055|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141
+2024-05-14 11:47:11.2055|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-05-14 11:47:11.2055|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-05-14 11:47:11.2055|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Code\WebAPI\FundooNotes\FundooNotes
+2024-05-14 11:47:11.5848|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/swagger/index.html - - -
+2024-05-14 11:47:12.0829|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/swagger/index.html - 200 - text/html;charset=utf-8 513.4358ms
+2024-05-14 11:47:12.1006|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/_framework/aspnetcore-browser-refresh.js - - -
+2024-05-14 11:47:12.1157|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/_vs/browserLink - - -
+2024-05-14 11:47:12.1157|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 16.8385ms
+2024-05-14 11:47:12.1776|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 61.8733ms
+2024-05-14 11:47:12.3406|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/swagger/v1/swagger.json - - -
+2024-05-14 11:47:12.4679|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 127.2801ms
+2024-05-14 11:47:27.9356|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/api/get-collaborations - - -
+2024-05-14 11:47:27.9511|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect.
+2024-05-14 11:47:27.9620|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-14 11:47:27.9620|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged.
+2024-05-14 11:47:27.9620|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/api/get-collaborations - 401 0 - 32.1776ms
+2024-05-14 11:48:03.0585|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/api/get-collaborations - - -
+2024-05-14 11:48:03.1682|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.CollaborationController.GetCollaboration (FundooNotes)'
+2024-05-14 11:48:03.1930|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetCollaboration", controller = "Collaboration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCollaboration() on controller FundooNotes.Controllers.CollaborationController (FundooNotes).
+2024-05-14 11:48:03.2077|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.CollaborationController.GetCollaboration (FundooNotes) in 10.237ms
+2024-05-14 11:48:03.2077|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.CollaborationController.GetCollaboration (FundooNotes)'
+2024-05-14 11:48:03.2077|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.|System.InvalidOperationException: Unable to resolve service for type 'Microsoft.Extensions.Logging.Logger`1[FundooNotes.Controllers.CollaborationController]' while attempting to activate 'FundooNotes.Controllers.CollaborationController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method9(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-05-14 11:48:03.2582|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/api/get-collaborations - 500 - text/plain;+charset=utf-8 199.7683ms
+2024-05-14 11:49:39.4733|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Yash\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-14 11:49:39.7963|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141
+2024-05-14 11:49:39.7995|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-05-14 11:49:39.7995|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-05-14 11:49:39.7995|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Code\WebAPI\FundooNotes\FundooNotes
+2024-05-14 11:49:40.2553|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/swagger/index.html - - -
+2024-05-14 11:49:40.7017|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/swagger/index.html - 200 - text/html;charset=utf-8 457.6156ms
+2024-05-14 11:49:40.7181|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/_framework/aspnetcore-browser-refresh.js - - -
+2024-05-14 11:49:40.7181|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 3.5452ms
+2024-05-14 11:49:40.7181|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/_vs/browserLink - - -
+2024-05-14 11:49:40.7790|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 53.6128ms
+2024-05-14 11:49:40.9083|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/swagger/v1/swagger.json - - -
+2024-05-14 11:49:41.0473|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 139.0947ms
+2024-05-14 11:50:18.3709|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5141/api/add-colleboration?noteid=4 - application/json 30
+2024-05-14 11:50:18.4508|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect.
+2024-05-14 11:50:18.4581|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.CollaborationController.AddCollaborator (FundooNotes)'
+2024-05-14 11:50:18.4888|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "AddCollaborator", controller = "Collaboration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddCollaborator(Int32, ModelLayer.CollaborationMadel.CollaborationCreateMode) on controller FundooNotes.Controllers.CollaborationController (FundooNotes).
+2024-05-14 11:50:18.5021|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.CollaborationController.AddCollaborator (FundooNotes) in 5.8169ms
+2024-05-14 11:50:18.5021|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.CollaborationController.AddCollaborator (FundooNotes)'
+2024-05-14 11:50:18.5021|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.|System.InvalidOperationException: Unable to resolve service for type 'Microsoft.Extensions.Logging.Logger`1[FundooNotes.Controllers.CollaborationController]' while attempting to activate 'FundooNotes.Controllers.CollaborationController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method9(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-05-14 11:50:18.5362|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5141/api/add-colleboration?noteid=4 - 500 - text/plain;+charset=utf-8 165.4291ms
+2024-05-14 11:52:50.6578|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Yash\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-14 11:52:50.9517|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141
+2024-05-14 11:52:50.9517|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-05-14 11:52:50.9517|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-05-14 11:52:50.9517|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Code\WebAPI\FundooNotes\FundooNotes
+2024-05-14 11:52:51.5836|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/swagger/index.html - - -
+2024-05-14 11:52:51.9663|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/swagger/index.html - 200 - text/html;charset=utf-8 393.4753ms
+2024-05-14 11:52:51.9812|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/_vs/browserLink - - -
+2024-05-14 11:52:51.9812|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/_framework/aspnetcore-browser-refresh.js - - -
+2024-05-14 11:52:51.9852|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 4.3809ms
+2024-05-14 11:52:52.0459|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 64.6853ms
+2024-05-14 11:52:52.1992|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/swagger/v1/swagger.json - - -
+2024-05-14 11:52:52.3446|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 145.3807ms
+2024-05-14 11:53:28.3349|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5141/api/add-colleboration?noteid=4 - application/json 30
+2024-05-14 11:53:28.4325|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect.
+2024-05-14 11:53:28.4407|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.CollaborationController.AddCollaborator (FundooNotes)'
+2024-05-14 11:53:28.4696|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "AddCollaborator", controller = "Collaboration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddCollaborator(Int32, ModelLayer.CollaborationMadel.CollaborationCreateMode) on controller FundooNotes.Controllers.CollaborationController (FundooNotes).
+2024-05-14 11:53:28.4828|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.CollaborationController.AddCollaborator (FundooNotes) in 7.1719ms
+2024-05-14 11:53:28.4828|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.CollaborationController.AddCollaborator (FundooNotes)'
+2024-05-14 11:53:28.4828|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.|System.InvalidOperationException: Unable to resolve service for type 'Microsoft.Extensions.Logging.Logger`1[FundooNotes.Controllers.CollaborationController]' while attempting to activate 'FundooNotes.Controllers.CollaborationController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method9(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-05-14 11:53:28.5140|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5141/api/add-colleboration?noteid=4 - 500 - text/plain;+charset=utf-8 179.2469ms
+2024-05-14 11:56:43.5358|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Yash\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-14 11:56:43.8395|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141
+2024-05-14 11:56:43.8395|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-05-14 11:56:43.8395|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-05-14 11:56:43.8395|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Code\WebAPI\FundooNotes\FundooNotes
+2024-05-14 11:56:44.4632|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/swagger/index.html - - -
+2024-05-14 11:56:44.9343|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/swagger/index.html - 200 - text/html;charset=utf-8 488.1937ms
+2024-05-14 11:56:44.9514|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/_vs/browserLink - - -
+2024-05-14 11:56:44.9514|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/_framework/aspnetcore-browser-refresh.js - - -
+2024-05-14 11:56:44.9514|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 3.9435ms
+2024-05-14 11:56:45.0085|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 57.2382ms
+2024-05-14 11:56:45.1800|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/swagger/v1/swagger.json - - -
+2024-05-14 11:56:45.3100|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 130.0291ms
+2024-05-14 11:57:17.2361|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5141/api/add-colleboration?noteid=4 - application/json 30
+2024-05-14 11:57:17.3398|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect.
+2024-05-14 11:57:17.3474|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.CollaborationController.AddCollaborator (FundooNotes)'
+2024-05-14 11:57:17.3778|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "AddCollaborator", controller = "Collaboration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddCollaborator(Int32, ModelLayer.CollaborationMadel.CollaborationCreateMode) on controller FundooNotes.Controllers.CollaborationController (FundooNotes).
+2024-05-14 11:57:53.0323|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing NotFoundObjectResult, writing value of type 'ModelLayer.Response.ResponseDataModel`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-05-14 11:57:53.0455|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.CollaborationController.AddCollaborator (FundooNotes) in 35659.8682ms
+2024-05-14 11:57:53.0455|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.CollaborationController.AddCollaborator (FundooNotes)'
+2024-05-14 11:57:53.0455|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5141/api/add-colleboration?noteid=4 - 404 - application/json;+charset=utf-8 35813.5779ms
+2024-05-14 11:59:05.9750|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5141/api/register - application/json 116
+2024-05-14 11:59:05.9750|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.RegisterController.UserRegistration (FundooNotes)'
+2024-05-14 11:59:05.9905|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "UserRegistration", controller = "Register"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserRegistration(ModelLayer.RegistrationModel.RegisterUserModel) on controller FundooNotes.Controllers.RegisterController (FundooNotes).
+2024-05-14 11:59:06.4174|INFO|FundooNotes.Controllers.RegisterController|User Registration Successful
+2024-05-14 11:59:06.4174|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'ModelLayer.Response.ResponseStringModel'.
+2024-05-14 11:59:06.4174|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.RegisterController.UserRegistration (FundooNotes) in 433.6188ms
+2024-05-14 11:59:06.4174|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.RegisterController.UserRegistration (FundooNotes)'
+2024-05-14 11:59:06.4174|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5141/api/register - 200 - application/json;+charset=utf-8 452.1157ms
+2024-05-14 11:59:31.0239|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5141/api/add-colleboration?noteid=4 - application/json 41
+2024-05-14 11:59:31.0380|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.CollaborationController.AddCollaborator (FundooNotes)'
+2024-05-14 11:59:31.0380|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "AddCollaborator", controller = "Collaboration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddCollaborator(Int32, ModelLayer.CollaborationMadel.CollaborationCreateMode) on controller FundooNotes.Controllers.CollaborationController (FundooNotes).
+2024-05-14 11:59:31.1045|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing NotFoundObjectResult, writing value of type 'ModelLayer.Response.ResponseDataModel`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-05-14 11:59:31.1045|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.CollaborationController.AddCollaborator (FundooNotes) in 66.1027ms
+2024-05-14 11:59:31.1045|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.CollaborationController.AddCollaborator (FundooNotes)'
+2024-05-14 11:59:31.1045|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5141/api/add-colleboration?noteid=4 - 404 - application/json;+charset=utf-8 82.1481ms
+2024-05-14 12:03:01.2250|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Yash\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-14 12:03:01.5968|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141
+2024-05-14 12:03:01.6011|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-05-14 12:03:01.6011|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-05-14 12:03:01.6011|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Code\WebAPI\FundooNotes\FundooNotes
+2024-05-14 12:03:02.0580|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/swagger/index.html - - -
+2024-05-14 12:03:02.5410|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/swagger/index.html - 200 - text/html;charset=utf-8 491.3259ms
+2024-05-14 12:03:02.5625|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/_vs/browserLink - - -
+2024-05-14 12:03:02.5625|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/_framework/aspnetcore-browser-refresh.js - - -
+2024-05-14 12:03:02.5669|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 4.2947ms
+2024-05-14 12:03:02.6140|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 50.3572ms
+2024-05-14 12:03:02.7931|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/swagger/v1/swagger.json - - -
+2024-05-14 12:03:02.9322|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 139.0824ms
+2024-05-14 12:03:40.7577|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5141/api/add-colleboration?noteid=4 - application/json 41
+2024-05-14 12:03:40.8412|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect.
+2024-05-14 12:03:40.8412|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.CollaborationController.AddCollaborator (FundooNotes)'
+2024-05-14 12:03:40.8814|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "AddCollaborator", controller = "Collaboration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddCollaborator(Int32, ModelLayer.CollaborationMadel.CollaborationCreateMode) on controller FundooNotes.Controllers.CollaborationController (FundooNotes).
+2024-05-14 12:03:41.1145|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing NotFoundObjectResult, writing value of type 'ModelLayer.Response.ResponseDataModel`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-05-14 12:03:41.1243|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.CollaborationController.AddCollaborator (FundooNotes) in 236.808ms
+2024-05-14 12:03:41.1243|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.CollaborationController.AddCollaborator (FundooNotes)'
+2024-05-14 12:03:41.1243|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5141/api/add-colleboration?noteid=4 - 404 - application/json;+charset=utf-8 367.4719ms
+2024-05-14 12:04:24.1885|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Yash\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-14 12:04:24.4767|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141
+2024-05-14 12:04:24.4767|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-05-14 12:04:24.4767|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-05-14 12:04:24.4767|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Code\WebAPI\FundooNotes\FundooNotes
+2024-05-14 12:04:25.2063|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/swagger/index.html - - -
+2024-05-14 12:04:25.6594|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/swagger/index.html - 200 - text/html;charset=utf-8 460.0304ms
+2024-05-14 12:04:25.6764|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/_vs/browserLink - - -
+2024-05-14 12:04:25.6764|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/_framework/aspnetcore-browser-refresh.js - - -
+2024-05-14 12:04:25.6764|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 3.6672ms
+2024-05-14 12:04:25.7307|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 54.3713ms
+2024-05-14 12:04:25.8713|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/swagger/v1/swagger.json - - -
+2024-05-14 12:04:26.0201|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 148.8827ms
+2024-05-14 12:05:04.2022|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5141/api/add-colleboration?noteid=4 - application/json 41
+2024-05-14 12:05:04.2934|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect.
+2024-05-14 12:05:04.2934|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.CollaborationController.AddCollaborator (FundooNotes)'
+2024-05-14 12:05:04.3262|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "AddCollaborator", controller = "Collaboration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddCollaborator(Int32, ModelLayer.CollaborationMadel.CollaborationCreateMode) on controller FundooNotes.Controllers.CollaborationController (FundooNotes).
+2024-05-14 12:05:04.8376|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing NotFoundObjectResult, writing value of type 'ModelLayer.Response.ResponseDataModel`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-05-14 12:05:04.8494|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.CollaborationController.AddCollaborator (FundooNotes) in 515.9468ms
+2024-05-14 12:05:04.8494|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.CollaborationController.AddCollaborator (FundooNotes)'
+2024-05-14 12:05:04.8494|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5141/api/add-colleboration?noteid=4 - 404 - application/json;+charset=utf-8 653.2774ms
+2024-05-14 12:05:32.3800|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Yash\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-14 12:05:32.6705|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141
+2024-05-14 12:05:32.6705|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-05-14 12:05:32.6705|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-05-14 12:05:32.6705|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Code\WebAPI\FundooNotes\FundooNotes
+2024-05-14 12:05:33.0052|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/swagger/index.html - - -
+2024-05-14 12:05:33.5265|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/swagger/index.html - 200 - text/html;charset=utf-8 528.9728ms
+2024-05-14 12:05:33.5606|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/_framework/aspnetcore-browser-refresh.js - - -
+2024-05-14 12:05:33.5606|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/_vs/browserLink - - -
+2024-05-14 12:05:33.5843|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 14.8741ms
+2024-05-14 12:05:33.6588|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 92.4356ms
+2024-05-14 12:05:33.7898|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/swagger/v1/swagger.json - - -
+2024-05-14 12:05:33.9487|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 159.1241ms
+2024-05-14 12:06:08.8810|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5141/api/add-colleboration?noteid=4 - application/json 41
+2024-05-14 12:06:08.9783|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect.
+2024-05-14 12:06:08.9864|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.CollaborationController.AddCollaborator (FundooNotes)'
+2024-05-14 12:06:09.0136|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "AddCollaborator", controller = "Collaboration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddCollaborator(Int32, ModelLayer.CollaborationMadel.CollaborationCreateMode) on controller FundooNotes.Controllers.CollaborationController (FundooNotes).
+2024-05-14 12:06:12.3324|INFO|FundooNotes.Controllers.CollaborationController|Collaborator Added
+2024-05-14 12:06:12.3485|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'ModelLayer.Response.ResponseStringModel'.
+2024-05-14 12:06:12.3699|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.CollaborationController.AddCollaborator (FundooNotes) in 3347.3115ms
+2024-05-14 12:06:12.3699|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.CollaborationController.AddCollaborator (FundooNotes)'
+2024-05-14 12:06:12.3699|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5141/api/add-colleboration?noteid=4 - 200 - application/json;+charset=utf-8 3493.8577ms
+2024-05-14 12:06:26.0804|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/api/get-collaborations - - -
+2024-05-14 12:06:26.0884|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.CollaborationController.GetCollaboration (FundooNotes)'
+2024-05-14 12:06:26.0884|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetCollaboration", controller = "Collaboration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCollaboration() on controller FundooNotes.Controllers.CollaborationController (FundooNotes).
+2024-05-14 12:06:26.1543|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'ModelLayer.Response.ResponseDataModel`1[[System.Collections.Generic.IEnumerable`1[[ModelLayer.CollaborationModel.CollaborationInfoModel, ModelLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-05-14 12:06:26.1543|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.CollaborationController.GetCollaboration (FundooNotes) in 62.5633ms
+2024-05-14 12:06:26.1543|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.CollaborationController.GetCollaboration (FundooNotes)'
+2024-05-14 12:06:26.1543|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/api/get-collaborations - 200 - application/json;+charset=utf-8 79.1372ms
+2024-05-14 12:06:52.4849|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 DELETE http://localhost:5141/api/delete-collaboration 1 - - -
+2024-05-14 12:06:52.5014|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.CollaborationController.RemoveCollaborator (FundooNotes)'
+2024-05-14 12:06:52.5014|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "RemoveCollaborator", controller = "Collaboration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RemoveCollaborator(Int32) on controller FundooNotes.Controllers.CollaborationController (FundooNotes).
+2024-05-14 12:06:52.5356|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'ModelLayer.Response.ResponseDataModel`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-05-14 12:06:52.5356|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.CollaborationController.RemoveCollaborator (FundooNotes) in 27.7928ms
+2024-05-14 12:06:52.5356|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.CollaborationController.RemoveCollaborator (FundooNotes)'
+2024-05-14 12:06:52.5356|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 DELETE http://localhost:5141/api/delete-collaboration 1 - 200 - application/json;+charset=utf-8 53.7843ms
+2024-05-14 12:24:08.6171|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Yash\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-14 12:24:08.9494|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141
+2024-05-14 12:24:08.9494|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-05-14 12:24:08.9494|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-05-14 12:24:08.9494|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Code\WebAPI\FundooNotes\FundooNotes
+2024-05-14 12:24:09.7570|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/swagger/index.html - - -
+2024-05-14 12:24:10.1524|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/swagger/index.html - 200 - text/html;charset=utf-8 401.4161ms
+2024-05-14 12:24:10.1706|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/_vs/browserLink - - -
+2024-05-14 12:24:10.1706|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/_framework/aspnetcore-browser-refresh.js - - -
+2024-05-14 12:24:10.1706|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 3.9225ms
+2024-05-14 12:24:10.2169|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 46.4668ms
+2024-05-14 12:24:10.3658|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/swagger/v1/swagger.json - - -
+2024-05-14 12:24:10.5002|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 134.4354ms
+2024-05-14 12:24:43.1823|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/api/show-notes 4 - - -
+2024-05-14 12:24:43.1823|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.|Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+FundooNotes.Controllers.LabelController.GetAllNotebyId (FundooNotes)
+FundooNotes.Controllers.NotesController.GetNotesByNoteId (FundooNotes)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-05-14 12:24:43.2266|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/api/show-notes 4 - 500 - text/plain;+charset=utf-8 45.0570ms
+2024-05-14 12:27:08.6554|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Yash\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-14 12:27:08.8899|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141
+2024-05-14 12:27:08.8899|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-05-14 12:27:08.8899|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-05-14 12:27:08.8899|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Code\WebAPI\FundooNotes\FundooNotes
+2024-05-14 12:27:09.3147|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/swagger/index.html - - -
+2024-05-14 12:27:09.6429|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/swagger/index.html - 200 - text/html;charset=utf-8 340.5674ms
+2024-05-14 12:27:09.6579|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/_vs/browserLink - - -
+2024-05-14 12:27:09.6579|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/_framework/aspnetcore-browser-refresh.js - - -
+2024-05-14 12:27:09.6609|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 2.9963ms
+2024-05-14 12:27:09.7037|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 45.7876ms
+2024-05-14 12:27:09.8303|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/swagger/v1/swagger.json - - -
+2024-05-14 12:27:09.9432|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 112.9917ms
+2024-05-14 12:27:43.0384|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/api/get-notes 4 - - -
+2024-05-14 12:27:43.1158|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect.
+2024-05-14 12:27:43.1158|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.NotesController.GetNotesByNoteId (FundooNotes)'
+2024-05-14 12:27:43.1514|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetNotesByNoteId", controller = "Notes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNotesByNoteId(Int32) on controller FundooNotes.Controllers.NotesController (FundooNotes).
+2024-05-14 12:27:43.6854|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing BadRequestObjectResult, writing value of type 'ModelLayer.Response.ResponseDataModel`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-05-14 12:27:43.6854|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.NotesController.GetNotesByNoteId (FundooNotes) in 538.6532ms
+2024-05-14 12:27:43.6854|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.NotesController.GetNotesByNoteId (FundooNotes)'
+2024-05-14 12:27:43.6854|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/api/get-notes 4 - 400 - application/json;+charset=utf-8 658.3936ms
+2024-05-14 12:28:38.6773|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Yash\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-14 12:28:38.9239|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141
+2024-05-14 12:28:38.9239|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-05-14 12:28:38.9239|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-05-14 12:28:38.9239|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Code\WebAPI\FundooNotes\FundooNotes
+2024-05-14 12:28:39.4634|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/swagger/index.html - - -
+2024-05-14 12:28:40.1662|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/swagger/index.html - 200 - text/html;charset=utf-8 708.3615ms
+2024-05-14 12:28:40.1818|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/_vs/browserLink - - -
+2024-05-14 12:28:40.1818|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/_framework/aspnetcore-browser-refresh.js - - -
+2024-05-14 12:28:40.1818|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 4.5550ms
+2024-05-14 12:28:40.2360|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 54.2910ms
+2024-05-14 12:28:40.3561|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/swagger/v1/swagger.json - - -
+2024-05-14 12:28:40.4865|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 130.3990ms
+2024-05-14 12:29:08.9470|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/api/get-notes 4 - - -
+2024-05-14 12:29:09.0047|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect.
+2024-05-14 12:29:09.0104|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.NotesController.GetNotesByNoteId (FundooNotes)'
+2024-05-14 12:29:09.0296|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetNotesByNoteId", controller = "Notes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNotesByNoteId(Int32) on controller FundooNotes.Controllers.NotesController (FundooNotes).
+2024-05-14 12:29:09.9226|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'ModelLayer.Response.ResponseDataModel`1[[ModelLayer.NotesModel.NoteResponse, ModelLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-14 12:29:09.9350|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.NotesController.GetNotesByNoteId (FundooNotes) in 899.7656ms
+2024-05-14 12:29:09.9350|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.NotesController.GetNotesByNoteId (FundooNotes)'
+2024-05-14 12:29:09.9350|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/api/get-notes 4 - 200 - application/json;+charset=utf-8 990.7714ms

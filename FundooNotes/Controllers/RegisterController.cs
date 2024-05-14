@@ -7,16 +7,10 @@ namespace FundooNotes.Controllers
 {
     [Route("api/")]
     [ApiController]
-    public class RegisterController : ControllerBase
+    public class RegisterController(IRegisterBL register, ILogger<RegisterController> logger) : ControllerBase
     {
-        private readonly IRegisterBL _register;
-        private readonly ILogger<RegisterController> _logger;
-
-        public RegisterController(IRegisterBL register, ILogger<RegisterController> logger)
-        {
-            _register = register;
-            _logger = logger;
-        }
+        private readonly IRegisterBL _register = register;
+        private readonly ILogger<RegisterController> _logger = logger;
 
         [HttpPost("register")]
         public async Task<IActionResult> UserRegistration(RegisterUserModel registerUserModel)
@@ -30,15 +24,6 @@ namespace FundooNotes.Controllers
                 {
                     Success = true,
                     Message = "User Registration Successful!",
-                    /*
-                    Data = new RegisterUserModel
-                    {
-                        FirstName = registerUserModel.FirstName,
-                        LastName = registerUserModel.LastName,
-                        Email = registerUserModel.Email,
-                        Password = registerUserModel.Password
-                    }
-                    */
                 };
                 return Ok(response);
             }

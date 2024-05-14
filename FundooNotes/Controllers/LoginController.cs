@@ -45,5 +45,89 @@ namespace FundooNotes.Controllers
                 return Ok(response );
             }
         }
+
+        [HttpPost("update-password")]
+        public async Task<IActionResult> ResetPassword(String email, String currentPassword, String newPassword)
+        {
+            try
+            {
+                await _login.UpdatePassword(email, currentPassword, newPassword);
+                _logger.LogInformation("Password reset successful");
+                var response = new ResponseStringModel
+                {
+                    Success = true,
+                    Message = "Password Reset done"
+
+                };
+                return Ok(response);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError("Password reset successful");
+                var response = new ResponseDataModel<string>
+                {
+                    Success = false,
+                    Message = ex.Message,
+                    Data = null
+                };
+                return Ok(response);
+            }
+        }
+
+        [HttpPost("forget-password")]
+        public async Task<IActionResult> ForgotPassword(String Email)
+        {
+            try
+            {
+                await _login.ForgetPassword(Email);
+                _logger.LogInformation("Email Sent");
+                var response = new ResponseStringModel
+                {
+                    Success = true,
+                    Message = "Email Sent Successfully"
+
+                };
+                return Ok(response);
+
+            }
+            catch (Exception ex)
+
+            {
+                _logger.LogError($"Error occured while sending mail {ex.Message}");
+                var response = new ResponseStringModel
+                {
+                    Success = false,
+                    Message = ex.Message,
+
+                };
+                return Ok(response);
+            }
+        }
+
+        [HttpPatch("reset-password")]
+        public async Task<IActionResult> ResetPassword(String Token, String Password)
+        {
+            try
+            {
+                await _login.ResetPassword(Token, Password);
+                _logger.LogInformation("Password has been reset");
+                var response = new ResponseStringModel
+                {
+                    Success = true,
+                    Message = "Password Reset Successful"
+                };
+                return Ok(response);
+            } catch (Exception ex)
+            {
+                _logger.LogError($"{ex.Message}");
+                var response = new ResponseStringModel
+                {
+                    Success = false,
+                    Message = ex.Message,
+                };
+                return Ok(response);
+            }
+        }
+
     }
 }

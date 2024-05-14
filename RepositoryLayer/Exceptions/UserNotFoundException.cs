@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace RepositoryLayer.Exceptions
 {
-    internal class UserNotFoundException : Exception
+    public class UserNotFoundException : Exception
     {
-        public UserNotFoundException(string message) : base (message){ }
+        public UserNotFoundException(string message) : base (message)
+        {
+            
+        }
     }
-
 }

@@ -1,0 +1,471 @@
+2024-05-10 08:43:37.2986|WARN|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-05-10 08:43:37.4399|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7229
+2024-05-10 08:43:37.4399|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141
+2024-05-10 08:43:37.4399|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-05-10 08:43:37.4399|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-05-10 08:43:37.4399|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Code\WebAPI\FundooNotes\FundooNotes
+2024-05-10 08:43:40.8329|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger - - -
+2024-05-10 08:43:41.0046|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger - 301 0 - 179.1112ms
+2024-05-10 08:43:41.0113|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/index.html - - -
+2024-05-10 08:43:41.1211|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/swagger-ui-bundle.js - - -
+2024-05-10 08:43:41.1211|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/swagger-ui-standalone-preset.js - - -
+2024-05-10 08:43:41.1211|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/index.html - 200 - text/html;charset=utf-8 109.8807ms
+2024-05-10 08:43:41.1211|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/swagger-ui.css - - -
+2024-05-10 08:43:41.1211|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/_vs/browserLink - - -
+2024-05-10 08:43:41.1211|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/_framework/aspnetcore-browser-refresh.js - - -
+2024-05-10 08:43:41.1416|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 16.8918ms
+2024-05-10 08:43:41.1993|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-10 08:43:41.1993|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/swagger-ui.css - 200 144929 text/css 78.8505ms
+2024-05-10 08:43:41.2220|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-10 08:43:41.2220|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/swagger-ui-standalone-preset.js - 200 312163 text/javascript 102.2354ms
+2024-05-10 08:43:41.2804|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-10 08:43:41.2804|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/swagger-ui-bundle.js - 200 1061536 text/javascript 161.5461ms
+2024-05-10 08:43:41.3042|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 180.2245ms
+2024-05-10 08:43:41.5350|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/v1/swagger.json - - -
+2024-05-10 08:43:41.6564|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 121.4339ms
+2024-05-10 08:44:06.9018|WARN|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-05-10 08:44:06.9990|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7229
+2024-05-10 08:44:06.9990|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141
+2024-05-10 08:44:06.9990|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-05-10 08:44:06.9990|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-05-10 08:44:06.9990|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Code\WebAPI\FundooNotes\FundooNotes
+2024-05-10 08:44:07.7477|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger - - -
+2024-05-10 08:44:07.8807|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger - 301 0 - 140.8704ms
+2024-05-10 08:44:07.8807|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/index.html - - -
+2024-05-10 08:44:08.0034|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/swagger-ui.css - - -
+2024-05-10 08:44:08.0034|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/swagger-ui-standalone-preset.js - - -
+2024-05-10 08:44:08.0034|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/swagger-ui-bundle.js - - -
+2024-05-10 08:44:08.0219|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/index.html - 200 - text/html;charset=utf-8 134.7803ms
+2024-05-10 08:44:08.0219|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/_framework/aspnetcore-browser-refresh.js - - -
+2024-05-10 08:44:08.0219|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/_vs/browserLink - - -
+2024-05-10 08:44:08.0432|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 16.8422ms
+2024-05-10 08:44:08.0750|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-10 08:44:08.0750|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-10 08:44:08.0791|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/swagger-ui.css - 200 144929 text/css 75.7470ms
+2024-05-10 08:44:08.0791|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/swagger-ui-standalone-preset.js - 200 312163 text/javascript 73.9612ms
+2024-05-10 08:44:08.0869|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-10 08:44:08.0869|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/swagger-ui-bundle.js - 200 1061536 text/javascript 84.1229ms
+2024-05-10 08:44:08.1174|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 91.6740ms
+2024-05-10 08:44:08.4215|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/v1/swagger.json - - -
+2024-05-10 08:44:08.5435|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 122.4159ms
+2024-05-10 08:44:43.4638|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7229/api/forget-password?Email=yugnasura%40gmail.com - - 0
+2024-05-10 08:44:43.4638|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.LoginController.ForgotPassword (FundooNotes)'
+2024-05-10 08:44:43.4966|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ForgotPassword", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ForgotPassword(System.String) on controller FundooNotes.Controllers.LoginController (FundooNotes).
+2024-05-10 08:44:44.0031|ERROR|FundooNotes.Controllers.LoginController|Error occured while sending mail Could not find stored procedure 'spCheckTokenExistsForUser'.
+2024-05-10 08:44:44.0083|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'ModelLayer.Response.ResponseStringModel'.
+2024-05-10 08:44:44.0083|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.LoginController.ForgotPassword (FundooNotes) in 518.3991ms
+2024-05-10 08:44:44.0083|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.LoginController.ForgotPassword (FundooNotes)'
+2024-05-10 08:44:44.0083|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7229/api/forget-password?Email=yugnasura%40gmail.com - 200 - application/json;+charset=utf-8 555.9044ms
+2024-05-10 08:47:01.5273|WARN|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-05-10 08:47:01.6334|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7229
+2024-05-10 08:47:01.6334|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141
+2024-05-10 08:47:01.6446|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-05-10 08:47:01.6446|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-05-10 08:47:01.6446|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Code\WebAPI\FundooNotes\FundooNotes
+2024-05-10 08:47:02.1967|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger - - -
+2024-05-10 08:47:02.3822|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger - 301 0 - 192.3492ms
+2024-05-10 08:47:02.3822|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/index.html - - -
+2024-05-10 08:47:02.4895|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/index.html - 200 - text/html;charset=utf-8 98.9460ms
+2024-05-10 08:47:02.4895|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/swagger-ui.css - - -
+2024-05-10 08:47:02.4895|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/swagger-ui-bundle.js - - -
+2024-05-10 08:47:02.4895|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/swagger-ui-standalone-preset.js - - -
+2024-05-10 08:47:02.5027|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/_framework/aspnetcore-browser-refresh.js - - -
+2024-05-10 08:47:02.5027|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/_vs/browserLink - - -
+2024-05-10 08:47:02.5218|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 18.6645ms
+2024-05-10 08:47:02.5996|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-10 08:47:02.6185|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-10 08:47:02.6185|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/swagger-ui.css - 200 144929 text/css 130.6413ms
+2024-05-10 08:47:02.6185|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/swagger-ui-standalone-preset.js - 200 312163 text/javascript 124.3338ms
+2024-05-10 08:47:02.6465|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-10 08:47:02.6465|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/swagger-ui-bundle.js - 200 1061536 text/javascript 148.3732ms
+2024-05-10 08:47:02.6465|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 153.9108ms
+2024-05-10 08:47:02.9169|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/v1/swagger.json - - -
+2024-05-10 08:47:03.0616|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 145.4634ms
+2024-05-10 08:47:15.7136|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7229/api/forget-password?Email=yugnasura%40gmail.com - - 0
+2024-05-10 08:47:15.7136|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.LoginController.ForgotPassword (FundooNotes)'
+2024-05-10 08:47:15.7396|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ForgotPassword", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ForgotPassword(System.String) on controller FundooNotes.Controllers.LoginController (FundooNotes).
+2024-05-10 08:47:19.8320|INFO|FundooNotes.Controllers.LoginController|Email Sent
+2024-05-10 08:47:19.8320|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'ModelLayer.Response.ResponseStringModel'.
+2024-05-10 08:47:19.8463|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.LoginController.ForgotPassword (FundooNotes) in 4102.787ms
+2024-05-10 08:47:19.8463|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.LoginController.ForgotPassword (FundooNotes)'
+2024-05-10 08:47:19.8463|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7229/api/forget-password?Email=yugnasura%40gmail.com - 200 - application/json;+charset=utf-8 4134.6902ms
+2024-05-10 08:48:43.4060|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 PATCH https://localhost:7229/api/reset-password?Token=SLYF23s_PbaLvtLTzVzIiNCoa-udA-foFzqw-cdNfdI&Password=Vishwakarma%40123 - - -
+2024-05-10 08:48:43.4060|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.LoginController.ResetPassword (FundooNotes)'
+2024-05-10 08:48:43.4151|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ResetPassword", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ResetPassword(System.String, System.String) on controller FundooNotes.Controllers.LoginController (FundooNotes).
+2024-05-10 08:48:43.8730|ERROR|FundooNotes.Controllers.LoginController|Procedure or function 'spUpdatePassword' expects parameter '@Email', which was not supplied.
+2024-05-10 08:48:43.8730|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'ModelLayer.Response.ResponseStringModel'.
+2024-05-10 08:48:43.8730|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.LoginController.ResetPassword (FundooNotes) in 458.6128ms
+2024-05-10 08:48:43.8730|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.LoginController.ResetPassword (FundooNotes)'
+2024-05-10 08:48:43.8747|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 PATCH https://localhost:7229/api/reset-password?Token=SLYF23s_PbaLvtLTzVzIiNCoa-udA-foFzqw-cdNfdI&Password=Vishwakarma%40123 - 200 - application/json;+charset=utf-8 468.9502ms
+2024-05-10 08:55:49.3883|WARN|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-05-10 08:55:49.5144|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7229
+2024-05-10 08:55:49.5144|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141
+2024-05-10 08:55:49.5144|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-05-10 08:55:49.5188|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-05-10 08:55:49.5188|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Code\WebAPI\FundooNotes\FundooNotes
+2024-05-10 08:55:50.7951|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger - - -
+2024-05-10 08:55:50.9105|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger - 301 0 - 119.7818ms
+2024-05-10 08:55:50.9105|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/index.html - - -
+2024-05-10 08:55:50.9828|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/swagger-ui.css - - -
+2024-05-10 08:55:50.9828|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/swagger-ui-bundle.js - - -
+2024-05-10 08:55:50.9828|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/swagger-ui-standalone-preset.js - - -
+2024-05-10 08:55:50.9901|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/index.html - 200 - text/html;charset=utf-8 74.8655ms
+2024-05-10 08:55:50.9901|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/_vs/browserLink - - -
+2024-05-10 08:55:51.0033|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/_framework/aspnetcore-browser-refresh.js - - -
+2024-05-10 08:55:51.0033|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 16.5457ms
+2024-05-10 08:55:51.0344|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-10 08:55:51.0344|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-10 08:55:51.0344|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/swagger-ui-standalone-preset.js - 200 312163 text/javascript 50.1308ms
+2024-05-10 08:55:51.0344|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/swagger-ui.css - 200 144929 text/css 52.3567ms
+2024-05-10 08:55:51.0344|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-10 08:55:51.0344|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/swagger-ui-bundle.js - 200 1061536 text/javascript 53.8103ms
+2024-05-10 08:55:51.0678|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 71.0686ms
+2024-05-10 08:55:51.2679|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/v1/swagger.json - - -
+2024-05-10 08:55:51.3926|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 124.8049ms
+2024-05-10 08:56:23.7998|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 PATCH https://localhost:7229/api/reset-password?Token=SLYF23s_PbaLvtLTzVzIiNCoa-udA-foFzqw-cdNfdI&Password=Vishwakarma%40123 - - -
+2024-05-10 08:56:23.7998|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.LoginController.ResetPassword (FundooNotes)'
+2024-05-10 08:56:23.8289|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ResetPassword", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ResetPassword(System.String, System.String) on controller FundooNotes.Controllers.LoginController (FundooNotes).
+2024-05-10 08:56:24.6728|ERROR|FundooNotes.Controllers.LoginController|Procedure or function 'spUpdatePassword' expects parameter '@Email', which was not supplied.
+2024-05-10 08:56:24.6728|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'ModelLayer.Response.ResponseStringModel'.
+2024-05-10 08:56:24.6940|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.LoginController.ResetPassword (FundooNotes) in 859.9221ms
+2024-05-10 08:56:24.6940|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.LoginController.ResetPassword (FundooNotes)'
+2024-05-10 08:56:24.6940|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 PATCH https://localhost:7229/api/reset-password?Token=SLYF23s_PbaLvtLTzVzIiNCoa-udA-foFzqw-cdNfdI&Password=Vishwakarma%40123 - 200 - application/json;+charset=utf-8 895.3122ms
+2024-05-10 08:58:32.4932|WARN|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-05-10 08:58:32.6024|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7229
+2024-05-10 08:58:32.6024|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141
+2024-05-10 08:58:32.6024|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-05-10 08:58:32.6024|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-05-10 08:58:32.6024|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Code\WebAPI\FundooNotes\FundooNotes
+2024-05-10 08:58:34.0843|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger - - -
+2024-05-10 08:58:34.2314|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger - 301 0 - 157.6161ms
+2024-05-10 08:58:34.2378|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/index.html - - -
+2024-05-10 08:58:34.3558|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/swagger-ui-bundle.js - - -
+2024-05-10 08:58:34.3558|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/swagger-ui.css - - -
+2024-05-10 08:58:34.3558|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/swagger-ui-standalone-preset.js - - -
+2024-05-10 08:58:34.3650|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/_vs/browserLink - - -
+2024-05-10 08:58:34.3650|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/_framework/aspnetcore-browser-refresh.js - - -
+2024-05-10 08:58:34.3650|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/index.html - 200 - text/html;charset=utf-8 127.6497ms
+2024-05-10 08:58:34.3860|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 20.6695ms
+2024-05-10 08:58:34.4144|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-10 08:58:34.4144|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-10 08:58:34.4144|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/swagger-ui.css - 200 144929 text/css 61.2736ms
+2024-05-10 08:58:34.4144|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/swagger-ui-standalone-preset.js - 200 312163 text/javascript 60.8522ms
+2024-05-10 08:58:34.4377|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-10 08:58:34.4377|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/swagger-ui-bundle.js - 200 1061536 text/javascript 82.6764ms
+2024-05-10 08:58:34.4603|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 95.2311ms
+2024-05-10 08:58:34.6614|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/v1/swagger.json - - -
+2024-05-10 08:58:34.7711|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 110.0943ms
+2024-05-10 08:59:00.0151|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 PATCH https://localhost:7229/api/reset-password?Token=SLYF23s_PbaLvtLTzVzIiNCoa-udA-foFzqw-cdNfdI&Password=Vishwakarma%40123 - - -
+2024-05-10 08:59:00.0221|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.LoginController.ResetPassword (FundooNotes)'
+2024-05-10 08:59:00.0449|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ResetPassword", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ResetPassword(System.String, System.String) on controller FundooNotes.Controllers.LoginController (FundooNotes).
+2024-05-10 08:59:00.7728|INFO|FundooNotes.Controllers.LoginController|Password has been reset
+2024-05-10 08:59:00.7728|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'ModelLayer.Response.ResponseStringModel'.
+2024-05-10 08:59:00.7728|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.LoginController.ResetPassword (FundooNotes) in 738.3185ms
+2024-05-10 08:59:00.7728|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.LoginController.ResetPassword (FundooNotes)'
+2024-05-10 08:59:00.7883|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 PATCH https://localhost:7229/api/reset-password?Token=SLYF23s_PbaLvtLTzVzIiNCoa-udA-foFzqw-cdNfdI&Password=Vishwakarma%40123 - 200 - application/json;+charset=utf-8 773.4229ms
+2024-05-10 09:07:48.0868|WARN|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-05-10 09:07:48.2447|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7229
+2024-05-10 09:07:48.2447|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141
+2024-05-10 09:07:48.2447|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-05-10 09:07:48.2447|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-05-10 09:07:48.2447|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Code\WebAPI\FundooNotes\FundooNotes
+2024-05-10 09:07:48.8050|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger - - -
+2024-05-10 09:07:48.9495|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger - 301 0 - 149.2363ms
+2024-05-10 09:07:48.9554|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/index.html - - -
+2024-05-10 09:07:49.0318|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/index.html - 200 - text/html;charset=utf-8 76.4517ms
+2024-05-10 09:07:49.0387|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/swagger-ui.css - - -
+2024-05-10 09:07:49.0387|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/swagger-ui-bundle.js - - -
+2024-05-10 09:07:49.0387|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/swagger-ui-standalone-preset.js - - -
+2024-05-10 09:07:49.0387|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/_framework/aspnetcore-browser-refresh.js - - -
+2024-05-10 09:07:49.0387|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/_vs/browserLink - - -
+2024-05-10 09:07:49.0523|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 12.5598ms
+2024-05-10 09:07:49.0859|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-10 09:07:49.0859|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-10 09:07:49.0859|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/swagger-ui.css - 200 144929 text/css 50.5118ms
+2024-05-10 09:07:49.0859|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/swagger-ui-standalone-preset.js - 200 312163 text/javascript 50.2179ms
+2024-05-10 09:07:49.0989|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-10 09:07:49.0989|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/swagger-ui-bundle.js - 200 1061536 text/javascript 60.7684ms
+2024-05-10 09:07:49.1283|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 82.3461ms
+2024-05-10 09:07:49.3645|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/v1/swagger.json - - -
+2024-05-10 09:07:49.4980|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 133.7682ms
+2024-05-10 09:08:24.1318|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 PATCH https://localhost:7229/api/reset-password?Token=SLYF23s_PbaLvtLTzVzIiNCoa-udA-foFzqw-cdNfdI&Password=Ganaguru%40123 - - -
+2024-05-10 09:08:24.1377|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.LoginController.ResetPassword (FundooNotes)'
+2024-05-10 09:08:24.1653|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ResetPassword", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ResetPassword(System.String, System.String) on controller FundooNotes.Controllers.LoginController (FundooNotes).
+2024-05-10 09:08:24.5976|ERROR|FundooNotes.Controllers.LoginController|Token has expired!
+2024-05-10 09:08:24.5976|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'ModelLayer.Response.ResponseStringModel'.
+2024-05-10 09:08:24.6125|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.LoginController.ResetPassword (FundooNotes) in 443.2369ms
+2024-05-10 09:08:24.6125|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.LoginController.ResetPassword (FundooNotes)'
+2024-05-10 09:08:24.6125|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 PATCH https://localhost:7229/api/reset-password?Token=SLYF23s_PbaLvtLTzVzIiNCoa-udA-foFzqw-cdNfdI&Password=Ganaguru%40123 - 200 - application/json;+charset=utf-8 481.7301ms
+2024-05-10 09:08:48.3199|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7229/api/forget-password?Email=yugnasura%40gmail.com - - 0
+2024-05-10 09:08:48.3235|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.LoginController.ForgotPassword (FundooNotes)'
+2024-05-10 09:08:48.3235|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ForgotPassword", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ForgotPassword(System.String) on controller FundooNotes.Controllers.LoginController (FundooNotes).
+2024-05-10 09:08:51.6864|INFO|FundooNotes.Controllers.LoginController|Email Sent
+2024-05-10 09:08:51.6864|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'ModelLayer.Response.ResponseStringModel'.
+2024-05-10 09:08:51.6864|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.LoginController.ForgotPassword (FundooNotes) in 3361.4458ms
+2024-05-10 09:08:51.6864|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.LoginController.ForgotPassword (FundooNotes)'
+2024-05-10 09:08:51.6864|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7229/api/forget-password?Email=yugnasura%40gmail.com - 200 - application/json;+charset=utf-8 3370.7139ms
+2024-05-10 09:09:20.2902|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 PATCH https://localhost:7229/api/reset-password?Token=%20VhtDnbPg8n_bte3N7dywbWLeOSTU92Bqze7hWmIhRew&Password=Ganaguru%40123 - - -
+2024-05-10 09:09:20.2902|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.LoginController.ResetPassword (FundooNotes)'
+2024-05-10 09:09:20.2902|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ResetPassword", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ResetPassword(System.String, System.String) on controller FundooNotes.Controllers.LoginController (FundooNotes).
+2024-05-10 09:09:20.3585|ERROR|FundooNotes.Controllers.LoginController|Invalid token
+2024-05-10 09:09:20.3585|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'ModelLayer.Response.ResponseStringModel'.
+2024-05-10 09:09:20.3585|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.LoginController.ResetPassword (FundooNotes) in 67.4783ms
+2024-05-10 09:09:20.3585|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.LoginController.ResetPassword (FundooNotes)'
+2024-05-10 09:09:20.3585|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 PATCH https://localhost:7229/api/reset-password?Token=%20VhtDnbPg8n_bte3N7dywbWLeOSTU92Bqze7hWmIhRew&Password=Ganaguru%40123 - 200 - application/json;+charset=utf-8 69.4283ms
+2024-05-10 09:09:45.2056|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 PATCH https://localhost:7229/api/reset-password?Token=%20VhtDnbPg8n_bte3N7dywbWLeOSTU92Bqze7hWmIhRew&Password=Ganaguru%40123 - - -
+2024-05-10 09:09:45.2056|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.LoginController.ResetPassword (FundooNotes)'
+2024-05-10 09:09:45.2056|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ResetPassword", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ResetPassword(System.String, System.String) on controller FundooNotes.Controllers.LoginController (FundooNotes).
+2024-05-10 09:09:45.2729|ERROR|FundooNotes.Controllers.LoginController|Invalid token
+2024-05-10 09:09:45.2729|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'ModelLayer.Response.ResponseStringModel'.
+2024-05-10 09:09:45.2729|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.LoginController.ResetPassword (FundooNotes) in 66.8506ms
+2024-05-10 09:09:45.2729|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.LoginController.ResetPassword (FundooNotes)'
+2024-05-10 09:09:45.2729|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 PATCH https://localhost:7229/api/reset-password?Token=%20VhtDnbPg8n_bte3N7dywbWLeOSTU92Bqze7hWmIhRew&Password=Ganaguru%40123 - 200 - application/json;+charset=utf-8 68.9645ms
+2024-05-10 09:10:09.6354|WARN|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-05-10 09:10:09.7089|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7229
+2024-05-10 09:10:09.7089|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141
+2024-05-10 09:10:09.7089|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-05-10 09:10:09.7089|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-05-10 09:10:09.7089|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Code\WebAPI\FundooNotes\FundooNotes
+2024-05-10 09:10:10.4781|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger - - -
+2024-05-10 09:10:10.6164|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger - 301 0 - 137.9272ms
+2024-05-10 09:10:10.6164|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/index.html - - -
+2024-05-10 09:10:10.7744|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/swagger-ui-bundle.js - - -
+2024-05-10 09:10:10.7744|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/swagger-ui-standalone-preset.js - - -
+2024-05-10 09:10:10.7744|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/swagger-ui.css - - -
+2024-05-10 09:10:10.7744|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/index.html - 200 - text/html;charset=utf-8 158.4008ms
+2024-05-10 09:10:10.7845|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/_framework/aspnetcore-browser-refresh.js - - -
+2024-05-10 09:10:10.7845|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/_vs/browserLink - - -
+2024-05-10 09:10:10.8119|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 27.3912ms
+2024-05-10 09:10:10.8197|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-10 09:10:10.8197|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/swagger-ui.css - 200 144929 text/css 46.0245ms
+2024-05-10 09:10:10.8308|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-10 09:10:10.8308|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/swagger-ui-standalone-preset.js - 200 312163 text/javascript 67.5971ms
+2024-05-10 09:10:10.8560|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-10 09:10:10.8560|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/swagger-ui-bundle.js - 200 1061536 text/javascript 81.9886ms
+2024-05-10 09:10:10.8747|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 89.7946ms
+2024-05-10 09:10:11.0799|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/v1/swagger.json - - -
+2024-05-10 09:10:11.2126|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 132.5432ms
+2024-05-10 09:10:30.9745|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 PATCH https://localhost:7229/api/reset-password?Token=%20VhtDnbPg8n_bte3N7dywbWLeOSTU92Bqze7hWmIhRew&Password=Ganaguru%40123 - - -
+2024-05-10 09:10:30.9745|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.LoginController.ResetPassword (FundooNotes)'
+2024-05-10 09:10:31.0021|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ResetPassword", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ResetPassword(System.String, System.String) on controller FundooNotes.Controllers.LoginController (FundooNotes).
+2024-05-10 09:10:31.4203|ERROR|FundooNotes.Controllers.LoginController|Invalid token
+2024-05-10 09:10:31.4203|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'ModelLayer.Response.ResponseStringModel'.
+2024-05-10 09:10:31.4370|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.LoginController.ResetPassword (FundooNotes) in 427.3964ms
+2024-05-10 09:10:31.4370|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.LoginController.ResetPassword (FundooNotes)'
+2024-05-10 09:10:31.4370|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 PATCH https://localhost:7229/api/reset-password?Token=%20VhtDnbPg8n_bte3N7dywbWLeOSTU92Bqze7hWmIhRew&Password=Ganaguru%40123 - 200 - application/json;+charset=utf-8 463.1061ms
+2024-05-10 09:11:13.2099|WARN|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-05-10 09:11:13.2982|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7229
+2024-05-10 09:11:13.2982|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141
+2024-05-10 09:11:13.2982|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-05-10 09:11:13.2982|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-05-10 09:11:13.2982|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Code\WebAPI\FundooNotes\FundooNotes
+2024-05-10 09:11:13.8253|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger - - -
+2024-05-10 09:11:13.9551|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger - 301 0 - 137.4667ms
+2024-05-10 09:11:13.9610|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/index.html - - -
+2024-05-10 09:11:14.0746|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/swagger-ui.css - - -
+2024-05-10 09:11:14.0746|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/swagger-ui-standalone-preset.js - - -
+2024-05-10 09:11:14.0746|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/swagger-ui-bundle.js - - -
+2024-05-10 09:11:14.0746|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/index.html - 200 - text/html;charset=utf-8 119.3431ms
+2024-05-10 09:11:14.0849|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/_framework/aspnetcore-browser-refresh.js - - -
+2024-05-10 09:11:14.0849|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/_vs/browserLink - - -
+2024-05-10 09:11:14.1163|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 31.6791ms
+2024-05-10 09:11:14.1163|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-10 09:11:14.1163|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-10 09:11:14.1163|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/swagger-ui.css - 200 144929 text/css 50.2437ms
+2024-05-10 09:11:14.1163|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/swagger-ui-standalone-preset.js - 200 312163 text/javascript 49.4304ms
+2024-05-10 09:11:14.1346|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-10 09:11:14.1346|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/swagger-ui-bundle.js - 200 1061536 text/javascript 59.9706ms
+2024-05-10 09:11:14.1547|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 69.3926ms
+2024-05-10 09:11:14.3432|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/v1/swagger.json - - -
+2024-05-10 09:11:14.4524|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 109.3910ms
+2024-05-10 09:11:24.0699|WARN|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-05-10 09:11:24.1608|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7229
+2024-05-10 09:11:24.1608|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141
+2024-05-10 09:11:24.1608|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-05-10 09:11:24.1608|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-05-10 09:11:24.1608|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Code\WebAPI\FundooNotes\FundooNotes
+2024-05-10 09:11:24.7932|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger - - -
+2024-05-10 09:11:24.9393|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger - 301 0 - 150.6047ms
+2024-05-10 09:11:24.9458|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/index.html - - -
+2024-05-10 09:11:25.0170|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/index.html - 200 - text/html;charset=utf-8 71.2669ms
+2024-05-10 09:11:25.0239|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/swagger-ui.css - - -
+2024-05-10 09:11:25.0239|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/swagger-ui-bundle.js - - -
+2024-05-10 09:11:25.0239|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/swagger-ui-standalone-preset.js - - -
+2024-05-10 09:11:25.0239|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/_framework/aspnetcore-browser-refresh.js - - -
+2024-05-10 09:11:25.0239|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/_vs/browserLink - - -
+2024-05-10 09:11:25.0353|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 11.2480ms
+2024-05-10 09:11:25.0624|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-10 09:11:25.0624|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-10 09:11:25.0624|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/swagger-ui.css - 200 144929 text/css 41.8415ms
+2024-05-10 09:11:25.0663|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/swagger-ui-standalone-preset.js - 200 312163 text/javascript 41.7267ms
+2024-05-10 09:11:25.0663|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-10 09:11:25.0663|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/swagger-ui-bundle.js - 200 1061536 text/javascript 45.2324ms
+2024-05-10 09:11:25.0876|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 58.9440ms
+2024-05-10 09:11:25.2910|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/v1/swagger.json - - -
+2024-05-10 09:11:25.4130|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 122.2597ms
+2024-05-10 09:11:38.4421|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 PATCH https://localhost:7229/api/reset-password?Token=%20VhtDnbPg8n_bte3N7dywbWLeOSTU92Bqze7hWmIhRew&Password=Ganaguru%40123 - - -
+2024-05-10 09:11:38.4496|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.LoginController.ResetPassword (FundooNotes)'
+2024-05-10 09:11:38.4730|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ResetPassword", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ResetPassword(System.String, System.String) on controller FundooNotes.Controllers.LoginController (FundooNotes).
+2024-05-10 09:12:41.0347|ERROR|FundooNotes.Controllers.LoginController|Invalid token
+2024-05-10 09:12:43.8434|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'ModelLayer.Response.ResponseStringModel'.
+2024-05-10 09:12:43.8747|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.LoginController.ResetPassword (FundooNotes) in 65396.9306ms
+2024-05-10 09:12:43.8747|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.LoginController.ResetPassword (FundooNotes)'
+2024-05-10 09:12:43.8747|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 PATCH https://localhost:7229/api/reset-password?Token=%20VhtDnbPg8n_bte3N7dywbWLeOSTU92Bqze7hWmIhRew&Password=Ganaguru%40123 - 200 - application/json;+charset=utf-8 65433.3179ms
+2024-05-10 09:20:51.1620|WARN|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-05-10 09:20:51.2481|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7229
+2024-05-10 09:20:51.2481|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141
+2024-05-10 09:20:51.2481|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-05-10 09:20:51.2481|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-05-10 09:20:51.2481|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Code\WebAPI\FundooNotes\FundooNotes
+2024-05-10 09:20:52.0633|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger - - -
+2024-05-10 09:20:52.1968|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger - 301 0 - 137.5409ms
+2024-05-10 09:20:52.1968|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/index.html - - -
+2024-05-10 09:20:52.2760|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/swagger-ui-bundle.js - - -
+2024-05-10 09:20:52.2760|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/swagger-ui-standalone-preset.js - - -
+2024-05-10 09:20:52.2760|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/swagger-ui.css - - -
+2024-05-10 09:20:52.2920|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/index.html - 200 - text/html;charset=utf-8 90.3893ms
+2024-05-10 09:20:52.3306|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-10 09:20:52.3306|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-10 09:20:52.3306|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/swagger-ui.css - 200 144929 text/css 55.5566ms
+2024-05-10 09:20:52.3306|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/swagger-ui-standalone-preset.js - 200 312163 text/javascript 55.2207ms
+2024-05-10 09:20:52.3338|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-10 09:20:52.3338|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/swagger-ui-bundle.js - 200 1061536 text/javascript 58.4146ms
+2024-05-10 09:20:52.3338|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/_framework/aspnetcore-browser-refresh.js - - -
+2024-05-10 09:20:52.3338|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 5.3627ms
+2024-05-10 09:20:52.3521|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/_vs/browserLink - - -
+2024-05-10 09:20:52.3973|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 45.5932ms
+2024-05-10 09:20:52.6713|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/v1/swagger.json - - -
+2024-05-10 09:20:52.7627|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 91.6115ms
+2024-05-10 09:21:30.8189|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 PATCH https://localhost:7229/api/reset-password?Token=VhtDnbPg8n_bte3N7dywbWLeOSTU92Bqze7hWmIhRew&Password=Ganaguru%40123 - - -
+2024-05-10 09:21:30.8281|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.LoginController.ResetPassword (FundooNotes)'
+2024-05-10 09:21:30.8489|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ResetPassword", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ResetPassword(System.String, System.String) on controller FundooNotes.Controllers.LoginController (FundooNotes).
+2024-05-10 09:22:03.4251|INFO|FundooNotes.Controllers.LoginController|Password has been reset
+2024-05-10 09:22:04.2043|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'ModelLayer.Response.ResponseStringModel'.
+2024-05-10 09:22:06.0589|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.LoginController.ResetPassword (FundooNotes) in 35205.4485ms
+2024-05-10 09:22:06.0589|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.LoginController.ResetPassword (FundooNotes)'
+2024-05-10 09:22:06.0589|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 PATCH https://localhost:7229/api/reset-password?Token=VhtDnbPg8n_bte3N7dywbWLeOSTU92Bqze7hWmIhRew&Password=Ganaguru%40123 - 200 - application/json;+charset=utf-8 35241.5851ms
+2024-05-10 09:25:46.9921|WARN|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-05-10 09:25:47.1159|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7229
+2024-05-10 09:25:47.1159|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141
+2024-05-10 09:25:47.1159|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-05-10 09:25:47.1159|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-05-10 09:25:47.1159|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Code\WebAPI\FundooNotes\FundooNotes
+2024-05-10 09:25:47.6551|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger - - -
+2024-05-10 09:25:47.8100|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger - 301 0 - 163.1170ms
+2024-05-10 09:25:47.8157|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/index.html - - -
+2024-05-10 09:25:47.9185|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/index.html - 200 - text/html;charset=utf-8 102.7567ms
+2024-05-10 09:25:47.9331|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/_framework/aspnetcore-browser-refresh.js - - -
+2024-05-10 09:25:47.9331|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/swagger-ui-standalone-preset.js - - -
+2024-05-10 09:25:47.9331|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/swagger-ui.css - - -
+2024-05-10 09:25:47.9331|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/swagger-ui-bundle.js - - -
+2024-05-10 09:25:47.9331|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/_vs/browserLink - - -
+2024-05-10 09:25:47.9619|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 28.6297ms
+2024-05-10 09:25:47.9989|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-10 09:25:48.0021|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-10 09:25:48.0021|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/swagger-ui-standalone-preset.js - 200 312163 text/javascript 71.6103ms
+2024-05-10 09:25:48.0021|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/swagger-ui.css - 200 144929 text/css 71.8753ms
+2024-05-10 09:25:48.0324|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-10 09:25:48.0324|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/swagger-ui-bundle.js - 200 1061536 text/javascript 100.3937ms
+2024-05-10 09:25:48.0350|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 99.5461ms
+2024-05-10 09:25:48.2748|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/v1/swagger.json - - -
+2024-05-10 09:25:48.4140|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 139.3242ms
+2024-05-10 09:26:02.0246|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7229/api/forget-password?Email=yugnasura%40gmail.com - - 0
+2024-05-10 09:26:02.0246|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.LoginController.ForgotPassword (FundooNotes)'
+2024-05-10 09:26:02.0499|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ForgotPassword", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ForgotPassword(System.String) on controller FundooNotes.Controllers.LoginController (FundooNotes).
+2024-05-10 09:26:05.7513|INFO|FundooNotes.Controllers.LoginController|Email Sent
+2024-05-10 09:26:05.7513|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'ModelLayer.Response.ResponseStringModel'.
+2024-05-10 09:26:05.7661|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.LoginController.ForgotPassword (FundooNotes) in 3712.32ms
+2024-05-10 09:26:05.7661|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.LoginController.ForgotPassword (FundooNotes)'
+2024-05-10 09:26:05.7661|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7229/api/forget-password?Email=yugnasura%40gmail.com - 200 - application/json;+charset=utf-8 3742.8086ms
+2024-05-10 09:26:45.2032|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 PATCH https://localhost:7229/api/reset-password?Token=lmbVujdd_tYA_vnTUNkmObuWFGyinWRlkwlapwjzauA&Password=Kodagu%40123 - - -
+2024-05-10 09:26:45.2067|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.LoginController.ResetPassword (FundooNotes)'
+2024-05-10 09:26:45.2119|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ResetPassword", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ResetPassword(System.String, System.String) on controller FundooNotes.Controllers.LoginController (FundooNotes).
+2024-05-10 09:26:45.6113|INFO|FundooNotes.Controllers.LoginController|Password has been reset
+2024-05-10 09:26:45.6113|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'ModelLayer.Response.ResponseStringModel'.
+2024-05-10 09:26:45.6113|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.LoginController.ResetPassword (FundooNotes) in 400.0808ms
+2024-05-10 09:26:45.6113|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.LoginController.ResetPassword (FundooNotes)'
+2024-05-10 09:26:45.6113|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 PATCH https://localhost:7229/api/reset-password?Token=lmbVujdd_tYA_vnTUNkmObuWFGyinWRlkwlapwjzauA&Password=Kodagu%40123 - 200 - application/json;+charset=utf-8 410.2233ms
+2024-05-10 11:58:18.8197|WARN|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-05-10 11:58:18.9201|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7229
+2024-05-10 11:58:18.9201|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141
+2024-05-10 11:58:18.9201|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-05-10 11:58:18.9201|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-05-10 11:58:18.9201|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Code\WebAPI\FundooNotes\FundooNotes
+2024-05-10 11:58:19.5184|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger - - -
+2024-05-10 11:58:19.6873|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger - 301 0 - 178.5653ms
+2024-05-10 11:58:19.6931|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/index.html - - -
+2024-05-10 11:58:19.7795|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/swagger-ui-bundle.js - - -
+2024-05-10 11:58:19.7795|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/swagger-ui.css - - -
+2024-05-10 11:58:19.7795|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/_framework/aspnetcore-browser-refresh.js - - -
+2024-05-10 11:58:19.7795|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/_vs/browserLink - - -
+2024-05-10 11:58:19.7862|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/swagger-ui-standalone-preset.js - - -
+2024-05-10 11:58:19.7862|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/index.html - 200 - text/html;charset=utf-8 94.9603ms
+2024-05-10 11:58:19.8064|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 26.8668ms
+2024-05-10 11:58:19.8433|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-10 11:58:19.8433|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-10 11:58:19.8433|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/swagger-ui.css - 200 144929 text/css 66.8455ms
+2024-05-10 11:58:19.8486|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/swagger-ui-standalone-preset.js - 200 312163 text/javascript 67.5222ms
+2024-05-10 11:58:19.8687|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-10 11:58:19.8687|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/swagger-ui-bundle.js - 200 1061536 text/javascript 89.7491ms
+2024-05-10 11:58:19.9006|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 120.7045ms
+2024-05-10 11:58:20.0880|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/v1/swagger.json - - -
+2024-05-10 11:58:20.2093|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 121.6055ms
+2024-05-10 12:16:37.8245|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/api/show-notes - - -
+2024-05-10 12:16:37.8423|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-10 12:16:37.8423|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.|System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.<>c__DisplayClass0_0.<<HandleAsync>g__Handle|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-05-10 12:16:37.9024|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/api/show-notes - 500 - text/plain;+charset=utf-8 78.5174ms
+2024-05-10 12:19:03.2398|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 DELETE https://localhost:7229/api/1?noteId=1 - - -
+2024-05-10 12:19:03.2532|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-10 12:19:03.2532|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.|System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.<>c__DisplayClass0_0.<<HandleAsync>g__Handle|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-05-10 12:19:03.2532|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 DELETE https://localhost:7229/api/1?noteId=1 - 500 - text/plain;+charset=utf-8 17.7689ms
+2024-05-10 12:22:45.0833|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Yash\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-10 12:22:45.1250|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Creating key {7aec3ebb-883e-407c-b102-d00ee41d6263} with creation date 2024-05-10 06:52:45Z, activation date 2024-05-10 06:52:45Z, and expiration date 2024-08-08 06:52:45Z.
+2024-05-10 12:22:45.1559|INFO|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Writing data to file 'C:\Users\Yash\AppData\Local\ASP.NET\DataProtection-Keys\key-7aec3ebb-883e-407c-b102-d00ee41d6263.xml'.
+2024-05-10 12:22:45.3178|WARN|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-05-10 12:22:45.3631|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7229
+2024-05-10 12:22:45.3631|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141
+2024-05-10 12:22:45.3651|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-05-10 12:22:45.3651|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-05-10 12:22:45.3651|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Code\WebAPI\FundooNotes\FundooNotes
+2024-05-10 12:22:46.1155|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger - - -
+2024-05-10 12:22:46.3516|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger - 301 0 - 241.7460ms
+2024-05-10 12:22:46.3615|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/index.html - - -
+2024-05-10 12:22:46.4661|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/index.html - 200 - text/html;charset=utf-8 104.6634ms
+2024-05-10 12:22:46.4733|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/swagger-ui.css - - -
+2024-05-10 12:22:46.4733|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/swagger-ui-bundle.js - - -
+2024-05-10 12:22:46.4733|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/swagger-ui-standalone-preset.js - - -
+2024-05-10 12:22:46.4733|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/_framework/aspnetcore-browser-refresh.js - - -
+2024-05-10 12:22:46.4897|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/_vs/browserLink - - -
+2024-05-10 12:22:46.4897|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 21.0354ms
+2024-05-10 12:22:46.5578|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-10 12:22:46.5578|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-10 12:22:46.5578|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/swagger-ui-standalone-preset.js - 200 312163 text/javascript 88.1902ms
+2024-05-10 12:22:46.5578|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/swagger-ui.css - 200 144929 text/css 88.5160ms
+2024-05-10 12:22:46.5725|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-10 12:22:46.5725|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/swagger-ui-bundle.js - 200 1061536 text/javascript 99.5807ms
+2024-05-10 12:22:46.6013|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 111.6765ms
+2024-05-10 12:22:46.8408|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/swagger/v1/swagger.json - - -
+2024-05-10 12:22:46.9756|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 135.0938ms
+2024-05-10 12:22:54.6892|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7229/api/show-notes - - -
+2024-05-10 12:22:54.7037|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-10 12:22:54.7100|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged.
+2024-05-10 12:22:54.7100|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7229/api/show-notes - 401 0 - 22.6663ms

@@ -119,6 +119,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
             "NLog": {
               "target": "Package",
               "version": "[5.3.2, )"
@@ -126,6 +130,10 @@
             "NLog.Web.AspNetCore": {
               "target": "Package",
               "version": "[5.3.10, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -271,6 +279,10 @@
             "Microsoft.Data.SqlClient": {
               "target": "Package",
               "version": "[5.2.0, )"
+            },
+            "Microsoft.Extensions.Caching.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             },
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",

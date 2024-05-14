@@ -18,9 +18,24 @@ namespace BusinessLayer.Services
             _login = login;
         }
 
-        public Task<string> UserLogin(LoginUserModel loginUserModel)
+        public async Task<bool> ForgetPassword(string email)
         {
-            return _login.LoginUser(loginUserModel);
+           return await _login.ForgetPassword(email);
+        }
+
+        public async Task<int> UpdatePassword(string email, string currentPassword, string newPassword)
+        {
+           return await _login.UpdatePassword(email, currentPassword, newPassword);
+        }
+
+        public  async Task<string> UserLogin(LoginUserModel loginUserModel)
+        {
+            return await _login.LoginUser(loginUserModel);
+        }
+
+        public async Task<bool> ResetPassword(string token, string password)
+        {
+            return await _login.ResetPassword(token, password);
         }
     }
 }

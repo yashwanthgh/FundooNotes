@@ -48,21 +48,9 @@ namespace RepositoryLayer.Services
                 throw new InvalidPasswordFormateException("Invalid password formate");
             }
 
-            /*
-             * var newUserEmail = registerUserModel.Email;
-             * var toCheckEmailIsNotDuplicate = @"SELECT COUNT(*) FROM Users WHERE Email = " + newUserEmail;
-             * 
-             *  ++ After making a connection
-             * if(toCheckEmailIsNotDuplicate > 0) throw new DuplicateEmailException("Email alredy exists!");
-             * 
-             * */
-
             // Getting Email to check if it exists
             var gettingEmailFromRegisteringUser = new DynamicParameters();
             gettingEmailFromRegisteringUser.Add("Email",  registerUserModel.Email, DbType.String);
-
-            // If the count is more than 0 then email exists
-            var toCheckEmailIsNotDuplicate = @"SELECT COUNT(*) FROM Users WHERE Email = @Email";
 
             // To Add parameters to the query
             var parameters = new DynamicParameters();
@@ -74,20 +62,17 @@ namespace RepositoryLayer.Services
             var hashPassword = BCrypt.Net.BCrypt.HashPassword(registerUserModel.Password);
             parameters.Add("Password", hashPassword, DbType.String);
 
-            var query = @"INSERT INTO Users (FirstName, LastName, Email, PAssword)
-                           VALUES (@FirstName, @LastName, @Email, @Password)";
-
             using(var connection = _context.CreateConnection())
             {
                 // Returns true if the email exists
-                var emailExists = connection.QueryFirstOrDefault<bool>(toCheckEmailIsNotDuplicate, gettingEmailFromRegisteringUser);
+                var emailExists = connection.QueryFirstOrDefault<bool>("spToCheckEmailIsNotDuplicate", gettingEmailFromRegisteringUser, commandType: CommandType.StoredProcedure);
 
                 if (emailExists)
                 {
                     throw new DuplicateEmailException("Email alredy exists!");
                 }
 
-                await connection.ExecuteAsync(query, parameters);
+                await connection.ExecuteAsync("spRegisterUser", parameters, commandType: CommandType.StoredProcedure);
                 return true;
             }
         }
