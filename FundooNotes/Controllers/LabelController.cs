@@ -23,7 +23,7 @@ namespace FundooNotes.Controllers
         }
 
         [Authorize]
-        [HttpPost("add-label")]
+        [HttpPost("addLabel")]
         public async Task<IActionResult> AddLabel(CreateLabelModel label)
         {
             try
@@ -52,7 +52,7 @@ namespace FundooNotes.Controllers
         }
 
         [Authorize]
-        [HttpDelete("delete-label {labelId}")]
+        [HttpDelete("deleteLabel {labelId}")]
         public async Task<IActionResult> Removelabel(int labelId)
         {
             try
@@ -78,7 +78,7 @@ namespace FundooNotes.Controllers
         }
 
         [Authorize]
-        [HttpPut("upadte-label {labelId}")]
+        [HttpPut("upadteLabel {labelId}")]
         public async Task<IActionResult> UpdateLabel(CreateLabelModel label, int labelId)
         {
             try
@@ -108,7 +108,7 @@ namespace FundooNotes.Controllers
         }
 
         [Authorize]
-        [HttpGet("show-labels")]
+        [HttpGet("showLabels")]
 
         public async Task<IActionResult> GetAllLabelbyId()
         {
@@ -136,7 +136,7 @@ namespace FundooNotes.Controllers
         }
 
         [Authorize]
-        [HttpGet("show-notes {labelId}")]
+        [HttpGet("showNotes {labelId}")]
 
         public async Task<IActionResult> GetAllNotebyId(int labelId)
         {

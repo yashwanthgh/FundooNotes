@@ -26,7 +26,7 @@ namespace RepositoryLayer.Services
             _emailService = emailService;
         }
 
-        public async Task<bool> AddCollaborator(int noteId, CollaborationCreateMode model, int userId)
+        public async Task<bool> AddCollaborator(int noteId, CollaborationCreateModel model, int userId)
         {
             var parameter = new DynamicParameters();
 

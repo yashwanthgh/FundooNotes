@@ -46,7 +46,7 @@ namespace FundooNotes.Controllers
             }
         }
 
-        [HttpPost("update-password")]
+        [HttpPost("updatePassword")]
         public async Task<IActionResult> ResetPassword(String email, String currentPassword, String newPassword)
         {
             try
@@ -74,7 +74,7 @@ namespace FundooNotes.Controllers
             }
         }
 
-        [HttpPost("forget-password")]
+        [HttpPost("forgetPassword")]
         public async Task<IActionResult> ForgotPassword(String Email)
         {
             try
@@ -104,7 +104,7 @@ namespace FundooNotes.Controllers
             }
         }
 
-        [HttpPatch("reset-password")]
+        [HttpPatch("resetPassword")]
         public async Task<IActionResult> ResetPassword(String Token, String Password)
         {
             try

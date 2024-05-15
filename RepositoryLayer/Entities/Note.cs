@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace RepositoryLayer.Entities
 {
-    public class Notes
+    public class Note
     {
         [Key]
         public int NoteId { get; set; }

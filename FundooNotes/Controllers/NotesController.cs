@@ -28,7 +28,7 @@ namespace FundooNotes.Controllers
         }
 
         [Authorize]
-        [HttpPost("create-note")]
+        [HttpPost("createNote")]
         public async Task<IActionResult> CreateNote(CreateNoteModel createNote)
         {
             try
@@ -57,7 +57,7 @@ namespace FundooNotes.Controllers
         }
 
         [Authorize]
-        [HttpGet("show-notes")]
+        [HttpGet("showNotes")]
         public async Task<IActionResult> DisplayNote()
         {
             try
@@ -110,7 +110,7 @@ namespace FundooNotes.Controllers
         }
 
         [Authorize]
-        [HttpPut("update-using {noteId}")]
+        [HttpPut("updateNote {noteId}")]
         public async Task<IActionResult> UpdateNote(int noteId, CreateNoteModel update)
         {
             try
@@ -141,7 +141,7 @@ namespace FundooNotes.Controllers
             }
         }
         [Authorize]
-        [HttpDelete("detele-using {noteId}")]
+        [HttpDelete("deteleNote {noteId}")]
         public async Task<IActionResult> DeleteNote(int noteId)
         {
             try
@@ -171,7 +171,7 @@ namespace FundooNotes.Controllers
         }
 
         [Authorize]
-        [HttpGet("show-archived")]
+        [HttpGet("showArchived")]
         public async Task<IActionResult> GetArchivedNotes()
         {
             try
@@ -224,7 +224,7 @@ namespace FundooNotes.Controllers
         }
 
         [Authorize]
-        [HttpGet("get-notes {noteId}")]
+        [HttpGet("getNote {noteId}")]
         public async Task<IActionResult> GetNotesByNoteId(int noteId)
         {
             try

@@ -23,9 +23,9 @@ namespace FundooNotes.Controllers
         }
 
         [Authorize]
-        [HttpPost("add-colleboration")]
+        [HttpPost("addColleboration")]
 
-        public async Task<IActionResult> AddCollaborator(int noteid, [FromBody] CollaborationCreateMode model)
+        public async Task<IActionResult> AddCollaborator(int noteid, [FromBody] CollaborationCreateModel model)
         {
             try
             {
@@ -54,7 +54,7 @@ namespace FundooNotes.Controllers
         }
 
         [Authorize]
-        [HttpDelete("delete-collaboration {collaborationId}")]
+        [HttpDelete("deleteCollaboration {collaborationId}")]
 
         public async Task<IActionResult> RemoveCollaborator(int collaborationId)
         {
@@ -83,7 +83,7 @@ namespace FundooNotes.Controllers
         }
 
         [Authorize]
-        [HttpGet("get-collaborations")]
+        [HttpGet("getCollaborations")]
 
         public async Task<IActionResult> GetCollaboration()
         {

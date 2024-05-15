@@ -15,7 +15,7 @@ namespace BusinessLayer.Services
             _collaboration = collaboration;
         }
 
-        public Task<bool> AddCollaborator(int noteId, CollaborationCreateMode model, int userId)
+        public Task<bool> AddCollaborator(int noteId, CollaborationCreateModel model, int userId)
         {
            return _collaboration.AddCollaborator(noteId, model, userId);
         }

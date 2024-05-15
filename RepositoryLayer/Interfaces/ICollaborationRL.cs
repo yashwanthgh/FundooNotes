@@ -10,7 +10,7 @@ namespace RepositoryLayer.Interfaces
 {
     public interface ICollaborationRL
     {
-        public Task<bool> AddCollaborator(int noteId, CollaborationCreateMode model, int userId);
+        public Task<bool> AddCollaborator(int noteId, CollaborationCreateModel model, int userId);
         public Task RemoveCollaborator(int CollaborationId);
         public Task<IEnumerable<CollaborationInfoModel>> GetCollaboration();
     }

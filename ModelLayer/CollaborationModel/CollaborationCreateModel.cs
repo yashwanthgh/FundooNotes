@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ModelLayer.CollaborationMadel
 {
-    public class CollaborationCreateMode
+    public class CollaborationCreateModel
     {
         public string? Email { get; set; }
     }
