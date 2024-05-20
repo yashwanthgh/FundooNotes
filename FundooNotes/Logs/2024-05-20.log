@@ -1,0 +1,26 @@
+2024-05-20 08:13:42.6376|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Yash\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-20 08:13:42.9696|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141
+2024-05-20 08:13:42.9696|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-05-20 08:13:42.9696|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-05-20 08:13:42.9696|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Code\WebAPI\FundooNotes\FundooNotes
+2024-05-20 08:13:50.6522|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/swagger/index.html - - -
+2024-05-20 08:13:51.4403|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/swagger/index.html - 200 - text/html;charset=utf-8 802.2349ms
+2024-05-20 08:13:51.4627|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/_framework/aspnetcore-browser-refresh.js - - -
+2024-05-20 08:13:51.4627|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/_vs/browserLink - - -
+2024-05-20 08:13:51.4627|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 3.3170ms
+2024-05-20 08:13:51.5844|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 121.8758ms
+2024-05-20 08:13:51.7244|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/swagger/v1/swagger.json - - -
+2024-05-20 08:13:51.9143|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 189.9783ms
+2024-05-20 08:15:23.6216|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Yash\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-20 08:15:23.8300|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141
+2024-05-20 08:15:23.8300|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-05-20 08:15:23.8300|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-05-20 08:15:23.8300|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Code\WebAPI\FundooNotes\FundooNotes
+2024-05-20 08:15:25.1580|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/swagger/index.html - - -
+2024-05-20 08:15:25.8256|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/swagger/index.html - 200 - text/html;charset=utf-8 683.6296ms
+2024-05-20 08:15:25.8452|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/_framework/aspnetcore-browser-refresh.js - - -
+2024-05-20 08:15:25.8452|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/_vs/browserLink - - -
+2024-05-20 08:15:25.8452|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 5.9524ms
+2024-05-20 08:15:25.9062|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 55.7663ms
+2024-05-20 08:15:26.0540|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/swagger/v1/swagger.json - - -
+2024-05-20 08:15:26.2244|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 170.4108ms

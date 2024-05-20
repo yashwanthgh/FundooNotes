@@ -23,7 +23,7 @@ namespace FundooNotes.Controllers
         }
 
         [Authorize]
-        [HttpPost("addColleboration {noteid}")]
+        [HttpPost("addColleboration/{noteid}")]
 
         public async Task<IActionResult> AddCollaborator(int noteid, [FromBody] CollaborationCreateModel model)
         {
@@ -54,7 +54,7 @@ namespace FundooNotes.Controllers
         }
 
         [Authorize]
-        [HttpDelete("deleteCollaboration {collaborationId}")]
+        [HttpDelete("deleteCollaboration/{collaborationId}")]
 
         public async Task<IActionResult> RemoveCollaborator(int collaborationId)
         {
