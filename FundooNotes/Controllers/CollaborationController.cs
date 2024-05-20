@@ -23,7 +23,7 @@ namespace FundooNotes.Controllers
         }
 
         [Authorize]
-        [HttpPost("addColleboration")]
+        [HttpPost("addColleboration {noteid}")]
 
         public async Task<IActionResult> AddCollaborator(int noteid, [FromBody] CollaborationCreateModel model)
         {

@@ -19,7 +19,7 @@ namespace BusinessLayer.Services
             _notes = notes;
         }
 
-        public Task CreateNote(CreateNoteModel notes, int userId)
+        public Task<IEnumerable<NoteResponse>> CreateNote(CreateNoteModel notes, int userId)
         {
            return _notes.CreateNote(notes, userId);
         }
@@ -44,7 +44,7 @@ namespace BusinessLayer.Services
             return _notes.GetAllNotes(userId);
         }
 
-        public Task UpdateNote(int noteId, int userId, CreateNoteModel updatedNote)
+        public Task<NoteResponse> UpdateNote(int noteId, int userId, CreateNoteModel updatedNote)
         {
            return _notes.UpdateNote(noteId, userId, updatedNote);
         }

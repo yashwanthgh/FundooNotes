@@ -4,15 +4,10 @@ using Microsoft.Extensions.Caching.Distributed;
 using ModelLayer.Notes;
 using ModelLayer.NotesModel;
 using RepositoryLayer.Context;
-using RepositoryLayer.Entities;
 using RepositoryLayer.Exceptions;
 using RepositoryLayer.Interfaces;
-using System;
-using System.Collections.Generic;
 using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace RepositoryLayer.Services
 {
@@ -27,7 +22,7 @@ namespace RepositoryLayer.Services
             _cache = cache;
         }
 
-        public async Task CreateNote(CreateNoteModel notes, int userId)
+        public async Task<IEnumerable<NoteResponse>> CreateNote(CreateNoteModel notes, int userId)
         {
             var parameter = new DynamicParameters();
             parameter.Add("Description", notes.Description, DbType.String);
@@ -36,12 +31,15 @@ namespace RepositoryLayer.Services
             parameter.Add("IsArchived", notes.IsArchived, DbType.Boolean);
             parameter.Add("IsDeleted", notes.IsDeleted, DbType.Boolean);
             parameter.Add("UserId", userId, DbType.Int64);
+            var selectQuery = @"SELECT * FROM Notes";
+            IEnumerable<NoteResponse> getNotes; 
 
             using(var connection = _context.CreateConnection())
             {
                 await connection.ExecuteAsync("spInsertNote", parameter, commandType: CommandType.StoredProcedure);
+                getNotes = await connection.QueryAsync<NoteResponse>(selectQuery, parameter);
             }
-            await _cache.RemoveAsync($"Notes_{userId}");
+            return getNotes.ToList();
         }
 
         public async Task<NoteResponse> GetAllNotebyUserId(int NoteId, int UserId)
@@ -80,7 +78,7 @@ namespace RepositoryLayer.Services
             await _cache.RemoveAsync($"Notes_{userId}");
         }
 
-        public async Task UpdateNote(int noteId, int userId, CreateNoteModel updatedNote)
+        public async Task<NoteResponse> UpdateNote(int noteId, int userId, CreateNoteModel updatedNote)
         {
             var parameter = new DynamicParameters();
             parameter.Add("Description", updatedNote.Description, DbType.String);
@@ -90,12 +88,18 @@ namespace RepositoryLayer.Services
             parameter.Add("IsDeleted", updatedNote.IsDeleted, DbType.Boolean);
             parameter.Add("NoteId", noteId, DbType.Int64);
             parameter.Add("UserId", userId, DbType.Int64);
-            
+            var selectQuery = @"SELECT * FROM Notes Where UserId = @UserId";
+            NoteResponse? getNotes;
+
             using (var connection = _context.CreateConnection())
             {
-                var note = await connection.ExecuteAsync("spUpdateNote", parameter, commandType: CommandType.StoredProcedure);
+                await connection.ExecuteAsync("spUpdateNote", parameter, commandType: CommandType.StoredProcedure);
+                getNotes = await connection.QueryFirstOrDefaultAsync(selectQuery, parameter);
             }
-            await _cache.RemoveAsync($"Notes_{userId}");
+            if (getNotes != null)
+                return getNotes;
+            else
+                throw new Exception("Error occured");
         }
 
         public async Task<IEnumerable<NoteResponse>> GetAllNotes(int userId)
@@ -129,6 +133,5 @@ namespace RepositoryLayer.Services
                 }
             }
         }
-
     }
 }

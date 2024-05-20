@@ -101,7 +101,7 @@ namespace RepositoryLayer.Services
             return Convert.ToBase64String(randomBytes).Replace("/", "-").Replace("+", "_").Replace("=", "");
         }
 
-        // Logic to send link to the users mail
+        // Logic to send otp to the users mail
         private async Task<bool> SendResetLinkEmail(string email, string token)
         {
             var mailMessage = new MailMessage();
@@ -113,8 +113,6 @@ namespace RepositoryLayer.Services
             mailMessage.To.Add(new MailAddress(email));
             mailMessage.Subject = "Password Reset for Your Account";
 
-            // string resetLink = $"http://localhost:{7229}/reset-password?token={token}";
-            // string message = $"Click here to reset your password: {resetLink}";
             string message = $" Token to reset your password: {token}";
             mailMessage.Body = message;
 

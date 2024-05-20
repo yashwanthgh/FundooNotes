@@ -83,3 +83,11 @@ C:\Code\WebAPI\FundooNotes\FundooNotes\obj\Debug\net8.0\refint\FundooNotes.dll
 C:\Code\WebAPI\FundooNotes\FundooNotes\obj\Debug\net8.0\FundooNotes.pdb
 C:\Code\WebAPI\FundooNotes\FundooNotes\obj\Debug\net8.0\FundooNotes.genruntimeconfig.cache
 C:\Code\WebAPI\FundooNotes\FundooNotes\obj\Debug\net8.0\ref\FundooNotes.dll
+C:\Code\WebAPI\FundooNotes\FundooNotes\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
+C:\Code\WebAPI\FundooNotes\FundooNotes\bin\Debug\net8.0\StackExchange.Redis.dll
+C:\Code\WebAPI\FundooNotes\FundooNotes\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Code\WebAPI\FundooNotes\FundooNotes\bin\Debug\net8.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
+C:\Code\WebAPI\FundooNotes\FundooNotes\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Code\WebAPI\FundooNotes\FundooNotes\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Code\WebAPI\FundooNotes\FundooNotes\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Code\WebAPI\FundooNotes\FundooNotes\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll

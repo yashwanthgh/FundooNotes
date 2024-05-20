@@ -1,0 +1,370 @@
+2024-05-16 11:05:34.5995|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Yash\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-16 11:05:34.7844|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141
+2024-05-16 11:05:34.7863|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-05-16 11:05:34.7863|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-05-16 11:05:34.7863|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Code\WebAPI\FundooNotes\FundooNotes
+2024-05-16 11:05:38.3255|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/swagger/index.html - - -
+2024-05-16 11:05:38.9222|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/_vs/browserLink - - -
+2024-05-16 11:05:38.9222|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/swagger/index.html - 200 - text/html;charset=utf-8 617.4107ms
+2024-05-16 11:05:38.9558|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/_framework/aspnetcore-browser-refresh.js - - -
+2024-05-16 11:05:38.9602|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 4.2868ms
+2024-05-16 11:05:39.1085|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 183.6721ms
+2024-05-16 11:05:39.2310|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/swagger/v1/swagger.json - - -
+2024-05-16 11:05:39.2717|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/swagger/favicon-32x32.png - - -
+2024-05-16 11:05:39.2963|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-05-16 11:05:39.2963|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/swagger/favicon-32x32.png - 200 628 image/png 27.1289ms
+2024-05-16 11:05:39.4731|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 242.0018ms
+2024-05-16 12:13:39.2751|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Yash\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-16 12:13:39.7609|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141
+2024-05-16 12:13:39.7609|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-05-16 12:13:39.7697|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-05-16 12:13:39.7697|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Code\WebAPI\FundooNotes\FundooNotes
+2024-05-16 12:13:40.6481|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/swagger/index.html - - -
+2024-05-16 12:13:41.0180|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/swagger/index.html - 200 - text/html;charset=utf-8 376.2715ms
+2024-05-16 12:13:41.0335|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/_framework/aspnetcore-browser-refresh.js - - -
+2024-05-16 12:13:41.0335|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/_vs/browserLink - - -
+2024-05-16 12:13:41.0368|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 3.4129ms
+2024-05-16 12:13:41.0729|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 39.3655ms
+2024-05-16 12:13:41.1915|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/swagger/v1/swagger.json - - -
+2024-05-16 12:13:41.3041|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 112.5523ms
+2024-05-16 13:19:21.4032|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Yash\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-16 13:19:21.8642|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141
+2024-05-16 13:19:21.8642|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-05-16 13:19:21.8642|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-05-16 13:19:21.8642|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Code\WebAPI\FundooNotes\FundooNotes
+2024-05-16 13:19:23.3128|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/swagger/index.html - - -
+2024-05-16 13:19:24.1108|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/swagger/index.html - 200 - text/html;charset=utf-8 811.9092ms
+2024-05-16 13:19:24.1544|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/_vs/browserLink - - -
+2024-05-16 13:19:24.1598|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/_framework/aspnetcore-browser-refresh.js - - -
+2024-05-16 13:19:24.1923|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 32.4201ms
+2024-05-16 13:19:24.3854|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 231.1664ms
+2024-05-16 13:19:24.5613|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/swagger/v1/swagger.json - - -
+2024-05-16 13:19:24.8120|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 250.6125ms
+2024-05-16 13:21:04.5608|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5141/api/register - application/json 110
+2024-05-16 13:21:04.5890|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect.
+2024-05-16 13:21:04.5890|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.RegisterController.UserRegistration (FundooNotes)'
+2024-05-16 13:21:04.6447|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "UserRegistration", controller = "Register"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserRegistration(ModelLayer.RegistrationModel.RegisterUserModel) on controller FundooNotes.Controllers.RegisterController (FundooNotes).
+2024-05-16 13:21:05.7760|INFO|FundooNotes.Controllers.RegisterController|User Registration Successful
+2024-05-16 13:21:05.7879|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'ModelLayer.Response.ResponseStringModel'.
+2024-05-16 13:21:05.8093|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.RegisterController.UserRegistration (FundooNotes) in 1154.5094ms
+2024-05-16 13:21:05.8093|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.RegisterController.UserRegistration (FundooNotes)'
+2024-05-16 13:21:05.8093|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5141/api/register - 200 - application/json;+charset=utf-8 1252.7544ms
+2024-05-16 13:21:27.2248|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5141/api/register - - 0
+2024-05-16 13:21:27.2248|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.RegisterController.UserRegistration (FundooNotes)'
+2024-05-16 13:21:27.2248|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "UserRegistration", controller = "Register"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserRegistration(ModelLayer.RegistrationModel.RegisterUserModel) on controller FundooNotes.Controllers.RegisterController (FundooNotes).
+2024-05-16 13:21:27.2248|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-05-16 13:21:27.2560|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.RegisterController.UserRegistration (FundooNotes) in 26.6144ms
+2024-05-16 13:21:27.2560|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.RegisterController.UserRegistration (FundooNotes)'
+2024-05-16 13:21:27.2560|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5141/api/register - 415 - application/problem+json;+charset=utf-8 31.7863ms
+2024-05-16 13:22:15.2830|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5141/api/register - application/json 112
+2024-05-16 13:22:15.2866|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.RegisterController.UserRegistration (FundooNotes)'
+2024-05-16 13:22:15.2866|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "UserRegistration", controller = "Register"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserRegistration(ModelLayer.RegistrationModel.RegisterUserModel) on controller FundooNotes.Controllers.RegisterController (FundooNotes).
+2024-05-16 13:22:15.5370|INFO|FundooNotes.Controllers.RegisterController|User Registration Successful
+2024-05-16 13:22:15.5370|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'ModelLayer.Response.ResponseStringModel'.
+2024-05-16 13:22:15.5370|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.RegisterController.UserRegistration (FundooNotes) in 247.3223ms
+2024-05-16 13:22:15.5370|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.RegisterController.UserRegistration (FundooNotes)'
+2024-05-16 13:22:15.5370|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5141/api/register - 200 - application/json;+charset=utf-8 256.0461ms
+2024-05-16 13:25:29.8492|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5141/api/login - application/json 70
+2024-05-16 13:25:29.8492|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.LoginController.UserLogin (FundooNotes)'
+2024-05-16 13:25:29.8492|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "UserLogin", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserLogin(ModelLayer.RegistrationModel.LoginUserModel) on controller FundooNotes.Controllers.LoginController (FundooNotes).
+2024-05-16 13:25:30.0941|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'ModelLayer.Response.ResponseDataModel`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-05-16 13:25:30.0941|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.LoginController.UserLogin (FundooNotes) in 235.3408ms
+2024-05-16 13:25:30.0941|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.LoginController.UserLogin (FundooNotes)'
+2024-05-16 13:25:30.0941|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5141/api/login - 200 - application/json;+charset=utf-8 247.5858ms
+2024-05-16 13:29:01.2376|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/api/updatePassword - text/plain 81
+2024-05-16 13:29:01.2376|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint '405 HTTP Method Not Supported'
+2024-05-16 13:29:01.2376|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint '405 HTTP Method Not Supported'
+2024-05-16 13:29:01.2376|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/api/updatePassword - 405 0 - 8.5202ms
+2024-05-16 13:33:56.2653|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/api/updatePassword - application/x-www-form-urlencoded 82
+2024-05-16 13:33:56.2927|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint '405 HTTP Method Not Supported'
+2024-05-16 13:33:56.2927|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint '405 HTTP Method Not Supported'
+2024-05-16 13:33:56.2927|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/api/updatePassword - 405 0 - 64.6940ms
+2024-05-16 13:34:19.0071|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5141/api/updatePassword - application/json 1774
+2024-05-16 13:34:19.0071|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.LoginController.ResetPassword (FundooNotes)'
+2024-05-16 13:34:19.0071|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ResetPassword", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ResetPassword(System.String, System.String, System.String) on controller FundooNotes.Controllers.LoginController (FundooNotes).
+2024-05-16 13:34:19.0238|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-05-16 13:34:19.0238|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.LoginController.ResetPassword (FundooNotes) in 9.1656ms
+2024-05-16 13:34:19.0238|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.LoginController.ResetPassword (FundooNotes)'
+2024-05-16 13:34:19.0238|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5141/api/updatePassword - 400 - application/problem+json;+charset=utf-8 21.8303ms
+2024-05-16 13:43:09.2106|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/api/updatePassword?email=sanjay@123&currentPassword=Sanjay@123&newPassword=Shaiva@123 - application/x-www-form-urlencoded 82
+2024-05-16 13:43:09.2106|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint '405 HTTP Method Not Supported'
+2024-05-16 13:43:09.2106|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint '405 HTTP Method Not Supported'
+2024-05-16 13:43:09.2106|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/api/updatePassword?email=sanjay@123&currentPassword=Sanjay@123&newPassword=Shaiva@123 - 405 0 - 5.3451ms
+2024-05-16 13:43:34.1972|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5141/api/updatePassword?email=sanjay@123&currentPassword=Sanjay@123&newPassword=Shaiva@123 - application/x-www-form-urlencoded 82
+2024-05-16 13:43:34.1972|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.LoginController.ResetPassword (FundooNotes)'
+2024-05-16 13:43:34.1972|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ResetPassword", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ResetPassword(System.String, System.String, System.String) on controller FundooNotes.Controllers.LoginController (FundooNotes).
+2024-05-16 13:43:34.4307|ERROR|FundooNotes.Controllers.LoginController|Password reset successful
+2024-05-16 13:43:34.4307|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'ModelLayer.Response.ResponseDataModel`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-05-16 13:43:34.4307|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.LoginController.ResetPassword (FundooNotes) in 227.5766ms
+2024-05-16 13:43:34.4307|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.LoginController.ResetPassword (FundooNotes)'
+2024-05-16 13:43:34.4307|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5141/api/updatePassword?email=sanjay@123&currentPassword=Sanjay@123&newPassword=Shaiva@123 - 200 - application/json;+charset=utf-8 234.5466ms
+2024-05-16 13:43:50.1629|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5141/api/updatePassword?email=sanjay@gmail.com&currentPassword=Sanjay@123&newPassword=Shaiva@123 - application/x-www-form-urlencoded 82
+2024-05-16 13:43:50.1629|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.LoginController.ResetPassword (FundooNotes)'
+2024-05-16 13:43:50.1629|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ResetPassword", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ResetPassword(System.String, System.String, System.String) on controller FundooNotes.Controllers.LoginController (FundooNotes).
+2024-05-16 13:43:50.4472|INFO|FundooNotes.Controllers.LoginController|Password reset successful
+2024-05-16 13:43:50.4472|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'ModelLayer.Response.ResponseStringModel'.
+2024-05-16 13:43:50.4472|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.LoginController.ResetPassword (FundooNotes) in 283.9125ms
+2024-05-16 13:43:50.4472|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.LoginController.ResetPassword (FundooNotes)'
+2024-05-16 13:43:50.4472|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5141/api/updatePassword?email=sanjay@gmail.com&currentPassword=Sanjay@123&newPassword=Shaiva@123 - 200 - application/json;+charset=utf-8 285.2742ms
+2024-05-16 13:44:25.6418|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5141/api/register - application/json 112
+2024-05-16 13:44:25.6486|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.RegisterController.UserRegistration (FundooNotes)'
+2024-05-16 13:44:25.6486|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "UserRegistration", controller = "Register"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserRegistration(ModelLayer.RegistrationModel.RegisterUserModel) on controller FundooNotes.Controllers.RegisterController (FundooNotes).
+2024-05-16 13:44:25.8696|ERROR|FundooNotes.Controllers.RegisterController|Registration unsuccessful
+2024-05-16 13:44:25.8696|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'ModelLayer.Response.ResponseDataModel`1[[ModelLayer.RegistrationModel.RegisterUserModel, ModelLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-16 13:44:25.8696|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.RegisterController.UserRegistration (FundooNotes) in 220.5931ms
+2024-05-16 13:44:25.8696|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.RegisterController.UserRegistration (FundooNotes)'
+2024-05-16 13:44:25.8696|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5141/api/register - 200 - application/json;+charset=utf-8 230.3804ms
+2024-05-16 13:44:32.2537|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5141/api/register - application/json 112
+2024-05-16 13:44:32.2537|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.RegisterController.UserRegistration (FundooNotes)'
+2024-05-16 13:44:32.2537|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "UserRegistration", controller = "Register"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserRegistration(ModelLayer.RegistrationModel.RegisterUserModel) on controller FundooNotes.Controllers.RegisterController (FundooNotes).
+2024-05-16 13:44:32.4592|ERROR|FundooNotes.Controllers.RegisterController|Registration unsuccessful
+2024-05-16 13:44:32.4592|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'ModelLayer.Response.ResponseDataModel`1[[ModelLayer.RegistrationModel.RegisterUserModel, ModelLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-16 13:44:32.4592|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.RegisterController.UserRegistration (FundooNotes) in 204.8554ms
+2024-05-16 13:44:32.4592|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.RegisterController.UserRegistration (FundooNotes)'
+2024-05-16 13:44:32.4592|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5141/api/register - 200 - application/json;+charset=utf-8 206.4219ms
+2024-05-16 13:47:54.5075|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5141/api/forgetPassword?Email=yugnasura@gmail.com - - 0
+2024-05-16 13:47:54.5422|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.LoginController.ForgotPassword (FundooNotes)'
+2024-05-16 13:47:54.5422|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ForgotPassword", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ForgotPassword(System.String) on controller FundooNotes.Controllers.LoginController (FundooNotes).
+2024-05-16 13:47:57.7274|INFO|FundooNotes.Controllers.LoginController|Email Sent
+2024-05-16 13:47:57.7274|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'ModelLayer.Response.ResponseStringModel'.
+2024-05-16 13:47:57.7274|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.LoginController.ForgotPassword (FundooNotes) in 3178.8607ms
+2024-05-16 13:47:57.7274|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.LoginController.ForgotPassword (FundooNotes)'
+2024-05-16 13:47:57.7274|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5141/api/forgetPassword?Email=yugnasura@gmail.com - 200 - application/json;+charset=utf-8 3220.9215ms
+2024-05-16 13:49:56.9578|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/api/resetPassword?Token=q9LY0QO09a7YYFj4Fd4L84i7Id3b5zkBhzH1tt0itJg&Password=Yashwanth@12345 - - -
+2024-05-16 13:49:56.9578|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint '405 HTTP Method Not Supported'
+2024-05-16 13:49:56.9578|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint '405 HTTP Method Not Supported'
+2024-05-16 13:49:56.9578|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/api/resetPassword?Token=q9LY0QO09a7YYFj4Fd4L84i7Id3b5zkBhzH1tt0itJg&Password=Yashwanth@12345 - 405 0 - 13.7920ms
+2024-05-16 13:50:17.8505|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5141/api/resetPassword?Token=q9LY0QO09a7YYFj4Fd4L84i7Id3b5zkBhzH1tt0itJg&Password=Yashwanth@12345 - - 0
+2024-05-16 13:50:17.8505|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint '405 HTTP Method Not Supported'
+2024-05-16 13:50:17.8505|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint '405 HTTP Method Not Supported'
+2024-05-16 13:50:17.8505|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5141/api/resetPassword?Token=q9LY0QO09a7YYFj4Fd4L84i7Id3b5zkBhzH1tt0itJg&Password=Yashwanth@12345 - 405 0 - 4.2894ms
+2024-05-16 13:50:40.1354|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5141/api/resetPassword?Token=q9LY0QO09a7YYFj4Fd4L84i7Id3b5zkBhzH1tt0itJg&Password=Yashwanth@12345 - - 0
+2024-05-16 13:50:40.1354|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint '405 HTTP Method Not Supported'
+2024-05-16 13:50:40.1354|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint '405 HTTP Method Not Supported'
+2024-05-16 13:50:40.1354|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5141/api/resetPassword?Token=q9LY0QO09a7YYFj4Fd4L84i7Id3b5zkBhzH1tt0itJg&Password=Yashwanth@12345 - 405 0 - 8.2522ms
+2024-05-16 13:51:15.2324|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 PATCH http://localhost:5141/api/resetPassword - - -
+2024-05-16 13:51:15.2393|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.LoginController.ResetPassword (FundooNotes)'
+2024-05-16 13:51:15.2393|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ResetPassword", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ResetPassword(System.String, System.String) on controller FundooNotes.Controllers.LoginController (FundooNotes).
+2024-05-16 13:51:15.2393|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-05-16 13:51:15.2393|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.LoginController.ResetPassword (FundooNotes) in 1.6792ms
+2024-05-16 13:51:15.2393|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.LoginController.ResetPassword (FundooNotes)'
+2024-05-16 13:51:15.2393|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 PATCH http://localhost:5141/api/resetPassword - 400 - application/problem+json;+charset=utf-8 15.3782ms
+2024-05-16 13:52:31.3519|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5141/api/resetPassword?Token=q9LY0QO09a7YYFj4Fd4L84i7Id3b5zkBhzH1tt0itJg%0A&Password=Yashwanth@1234 - - 0
+2024-05-16 13:52:31.3519|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint '405 HTTP Method Not Supported'
+2024-05-16 13:52:31.3519|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint '405 HTTP Method Not Supported'
+2024-05-16 13:52:31.3519|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5141/api/resetPassword?Token=q9LY0QO09a7YYFj4Fd4L84i7Id3b5zkBhzH1tt0itJg%0A&Password=Yashwanth@1234 - 405 0 - 7.7668ms
+2024-05-16 13:52:47.9172|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 PATCH http://localhost:5141/api/resetPassword?Token=q9LY0QO09a7YYFj4Fd4L84i7Id3b5zkBhzH1tt0itJg%0A&Password=Yashwanth@1234 - - 0
+2024-05-16 13:52:47.9172|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.LoginController.ResetPassword (FundooNotes)'
+2024-05-16 13:52:47.9172|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ResetPassword", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ResetPassword(System.String, System.String) on controller FundooNotes.Controllers.LoginController (FundooNotes).
+2024-05-16 13:52:48.0737|ERROR|FundooNotes.Controllers.LoginController|Invalid token
+2024-05-16 13:52:48.0737|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'ModelLayer.Response.ResponseStringModel'.
+2024-05-16 13:52:48.0737|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.LoginController.ResetPassword (FundooNotes) in 156.1636ms
+2024-05-16 13:52:48.0737|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.LoginController.ResetPassword (FundooNotes)'
+2024-05-16 13:52:48.0737|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 PATCH http://localhost:5141/api/resetPassword?Token=q9LY0QO09a7YYFj4Fd4L84i7Id3b5zkBhzH1tt0itJg%0A&Password=Yashwanth@1234 - 200 - application/json;+charset=utf-8 157.3514ms
+2024-05-16 13:56:16.1324|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5141/api/createNote - application/json 128
+2024-05-16 13:56:16.2255|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Failed to validate the token.|Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10503: Signature validation failed. Token does not have a kid. Keys tried: '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-05-16 13:56:16.2255|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Bearer was not authenticated. Failure message: IDX10503: Signature validation failed. Token does not have a kid. Keys tried: '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2024-05-16 13:56:16.2255|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-16 13:56:16.2400|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged.
+2024-05-16 13:56:16.2400|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5141/api/createNote - 401 0 - 108.1628ms
+2024-05-16 13:57:22.4795|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5141/api/createNote - application/json 128
+2024-05-16 13:57:22.5109|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.NoteController.CreateNote (FundooNotes)'
+2024-05-16 13:57:22.5109|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "CreateNote", controller = "Note"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateNote(ModelLayer.Notes.CreateNoteModel) on controller FundooNotes.Controllers.NoteController (FundooNotes).
+2024-05-16 13:57:22.5513|INFO|FundooNotes.Controllers.NoteController|Note created!
+2024-05-16 13:57:22.5513|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'ModelLayer.Response.ResponseStringModel'.
+2024-05-16 13:57:22.5513|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.NoteController.CreateNote (FundooNotes) in 36.821ms
+2024-05-16 13:57:22.5513|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.NoteController.CreateNote (FundooNotes)'
+2024-05-16 13:57:22.5513|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5141/api/createNote - 200 - application/json;+charset=utf-8 73.6207ms
+2024-05-16 13:58:07.7524|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/api/showNotes - - -
+2024-05-16 13:58:07.7596|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-16 13:58:07.7596|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged.
+2024-05-16 13:58:07.7596|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/api/showNotes - 401 0 - 9.5986ms
+2024-05-16 13:58:54.9366|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/api/showNotes - - -
+2024-05-16 13:58:54.9422|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.NoteController.DisplayNote (FundooNotes)'
+2024-05-16 13:58:54.9422|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "DisplayNote", controller = "Note"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DisplayNote() on controller FundooNotes.Controllers.NoteController (FundooNotes).
+2024-05-16 13:58:55.0643|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'ModelLayer.Response.ResponseDataModel`1[[System.Collections.Generic.IEnumerable`1[[ModelLayer.NotesModel.NoteResponse, ModelLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-05-16 13:58:55.0670|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.NoteController.DisplayNote (FundooNotes) in 119.0639ms
+2024-05-16 13:58:55.0670|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.NoteController.DisplayNote (FundooNotes)'
+2024-05-16 13:58:55.0670|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/api/showNotes - 200 - application/json;+charset=utf-8 130.7712ms
+2024-05-16 14:01:44.2932|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/api/updateNote?noteId=5 - application/json 120
+2024-05-16 14:01:44.3100|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/api/updateNote?noteId=5 - 404 0 - 16.8737ms
+2024-05-16 14:01:44.3100|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5141/api/updateNote, Response status code: 404
+2024-05-16 14:03:23.5999|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/api/updateNote?noteId=5 - application/json 120
+2024-05-16 14:03:23.5999|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/api/updateNote?noteId=5 - 404 0 - 2.3857ms
+2024-05-16 14:03:23.5999|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5141/api/updateNote, Response status code: 404
+2024-05-16 14:04:09.0978|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5141/api/updateNote?noteId=5 - application/json 120
+2024-05-16 14:04:09.0978|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint '405 HTTP Method Not Supported'
+2024-05-16 14:04:09.0978|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint '405 HTTP Method Not Supported'
+2024-05-16 14:04:09.0978|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5141/api/updateNote?noteId=5 - 405 0 - 10.0949ms
+2024-05-16 14:04:47.4651|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 PUT http://localhost:5141/api/updateNote 5487 - application/json 115
+2024-05-16 14:04:47.4651|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-16 14:04:47.4651|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged.
+2024-05-16 14:04:47.4651|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 PUT http://localhost:5141/api/updateNote 5487 - 401 0 - 19.9909ms
+2024-05-16 14:05:08.2980|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5141/api/updateNote?noteId=5 - application/json 120
+2024-05-16 14:05:08.3074|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint '405 HTTP Method Not Supported'
+2024-05-16 14:05:08.3074|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint '405 HTTP Method Not Supported'
+2024-05-16 14:05:08.3074|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5141/api/updateNote?noteId=5 - 405 0 - 10.8531ms
+2024-05-16 14:05:32.8386|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 PUT http://localhost:5141/api/updateNote?noteId=5 - application/json 120
+2024-05-16 14:05:32.8684|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 PUT http://localhost:5141/api/updateNote?noteId=5 - 404 0 - 29.8112ms
+2024-05-16 14:05:32.8684|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: PUT http://localhost:5141/api/updateNote, Response status code: 404
+2024-05-16 14:05:58.5822|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 PUT http://localhost:5141/api/updateNote?noteId=5 - application/json 120
+2024-05-16 14:05:58.6118|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 PUT http://localhost:5141/api/updateNote?noteId=5 - 404 0 - 29.6523ms
+2024-05-16 14:05:58.6136|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: PUT http://localhost:5141/api/updateNote, Response status code: 404
+2024-05-16 14:06:43.5916|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/api/showNotes - - -
+2024-05-16 14:06:43.5973|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-16 14:06:43.5973|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged.
+2024-05-16 14:06:43.5973|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/api/showNotes - 401 0 - 6.0567ms
+2024-05-16 14:06:45.4130|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/api/showNotes - - -
+2024-05-16 14:06:45.4130|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-16 14:06:45.4130|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged.
+2024-05-16 14:06:45.4130|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/api/showNotes - 401 0 - 3.1069ms
+2024-05-16 14:06:51.2883|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/api/showNotes - - -
+2024-05-16 14:06:51.2883|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-16 14:06:51.2883|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged.
+2024-05-16 14:06:51.2883|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/api/showNotes - 401 0 - 0.8558ms
+2024-05-16 14:08:20.1117|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 PUT http://localhost:5141/api/updateNote?noteId=5 - application/json 120
+2024-05-16 14:08:20.1167|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 PUT http://localhost:5141/api/updateNote?noteId=5 - 404 0 - 5.0842ms
+2024-05-16 14:08:20.1167|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: PUT http://localhost:5141/api/updateNote, Response status code: 404
+2024-05-16 14:08:33.5109|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/api/showNotes - - -
+2024-05-16 14:08:33.5109|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.NoteController.DisplayNote (FundooNotes)'
+2024-05-16 14:08:33.5109|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "DisplayNote", controller = "Note"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DisplayNote() on controller FundooNotes.Controllers.NoteController (FundooNotes).
+2024-05-16 14:08:33.5456|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'ModelLayer.Response.ResponseDataModel`1[[System.Collections.Generic.IEnumerable`1[[ModelLayer.NotesModel.NoteResponse, ModelLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-05-16 14:08:33.5456|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.NoteController.DisplayNote (FundooNotes) in 31.3161ms
+2024-05-16 14:08:33.5456|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.NoteController.DisplayNote (FundooNotes)'
+2024-05-16 14:08:33.5456|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/api/showNotes - 200 - application/json;+charset=utf-8 35.8941ms
+2024-05-16 14:09:08.2389|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 PUT http://localhost:5141/api/updateNote 5 - application/json 169
+2024-05-16 14:09:08.2652|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.NoteController.UpdateNote (FundooNotes)'
+2024-05-16 14:09:08.2712|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "UpdateNote", controller = "Note"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateNote(Int32, ModelLayer.Notes.CreateNoteModel) on controller FundooNotes.Controllers.NoteController (FundooNotes).
+2024-05-16 14:09:08.2877|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'ModelLayer.Response.ResponseDataModel`1[[ModelLayer.NotesModel.NoteResponse, ModelLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-16 14:09:08.2877|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.NoteController.UpdateNote (FundooNotes) in 20.7072ms
+2024-05-16 14:09:08.2877|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.NoteController.UpdateNote (FundooNotes)'
+2024-05-16 14:09:08.2877|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 PUT http://localhost:5141/api/updateNote 5 - 200 - application/json;+charset=utf-8 53.8890ms
+2024-05-16 14:09:25.7260|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 PUT http://localhost:5141/api/updateNote?noteId=5 - application/json 120
+2024-05-16 14:09:25.7260|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 PUT http://localhost:5141/api/updateNote?noteId=5 - 404 0 - 0.8109ms
+2024-05-16 14:09:25.7260|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: PUT http://localhost:5141/api/updateNote, Response status code: 404
+2024-05-16 14:10:25.7918|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 PUT http://localhost:5141/api/updateNote?noteId=5 - application/json 120
+2024-05-16 14:10:25.7918|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 PUT http://localhost:5141/api/updateNote?noteId=5 - 404 0 - 7.8388ms
+2024-05-16 14:10:25.7918|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: PUT http://localhost:5141/api/updateNote, Response status code: 404
+2024-05-16 14:12:46.0098|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 PATCH http://localhost:5141/api/updateNote?noteId=5 - application/json 120
+2024-05-16 14:12:46.0098|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint '405 HTTP Method Not Supported'
+2024-05-16 14:12:46.0098|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint '405 HTTP Method Not Supported'
+2024-05-16 14:12:46.0098|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 PATCH http://localhost:5141/api/updateNote?noteId=5 - 405 0 - 2.7518ms
+2024-05-16 14:12:51.7404|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5141/api/updateNote?noteId=5 - application/json 120
+2024-05-16 14:12:51.7404|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint '405 HTTP Method Not Supported'
+2024-05-16 14:12:51.7404|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint '405 HTTP Method Not Supported'
+2024-05-16 14:12:51.7404|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5141/api/updateNote?noteId=5 - 405 0 - 4.9475ms
+2024-05-16 14:12:58.3085|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 PUT http://localhost:5141/api/updateNote?noteId=5 - application/json 120
+2024-05-16 14:12:58.3085|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 PUT http://localhost:5141/api/updateNote?noteId=5 - 404 0 - 0.8045ms
+2024-05-16 14:12:58.3085|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: PUT http://localhost:5141/api/updateNote, Response status code: 404
+2024-05-16 14:16:03.6729|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 PUT http://localhost:5141/api/updateNote?noteId=5 - application/json 120
+2024-05-16 14:16:03.6807|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 PUT http://localhost:5141/api/updateNote?noteId=5 - 404 0 - 8.8740ms
+2024-05-16 14:16:03.6807|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: PUT http://localhost:5141/api/updateNote, Response status code: 404
+2024-05-16 14:16:12.2888|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 PUT http://localhost:5141/api/updateNote - application/json 120
+2024-05-16 14:16:12.2888|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 PUT http://localhost:5141/api/updateNote - 404 0 - 1.1531ms
+2024-05-16 14:16:12.2888|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: PUT http://localhost:5141/api/updateNote, Response status code: 404
+2024-05-16 14:16:29.8600|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 PUT http://localhost:5141/api/updateNote?noteId=5 - application/json 120
+2024-05-16 14:16:29.8600|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 PUT http://localhost:5141/api/updateNote?noteId=5 - 404 0 - 2.7114ms
+2024-05-16 14:16:29.8600|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: PUT http://localhost:5141/api/updateNote, Response status code: 404
+2024-05-16 14:18:18.8051|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 PUT http://localhost:5141/api/updateNote noteId=5 - application/json 120
+2024-05-16 14:18:18.8051|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.NoteController.UpdateNote (FundooNotes)'
+2024-05-16 14:18:18.8051|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "UpdateNote", controller = "Note"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateNote(Int32, ModelLayer.Notes.CreateNoteModel) on controller FundooNotes.Controllers.NoteController (FundooNotes).
+2024-05-16 14:18:18.8310|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-05-16 14:18:18.8320|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.NoteController.UpdateNote (FundooNotes) in 19.0935ms
+2024-05-16 14:18:18.8320|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.NoteController.UpdateNote (FundooNotes)'
+2024-05-16 14:18:18.8320|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 PUT http://localhost:5141/api/updateNote noteId=5 - 400 - application/problem+json;+charset=utf-8 28.5926ms
+2024-05-16 14:18:33.5483|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 PUT http://localhost:5141/api/updateNote?6 - application/json 120
+2024-05-16 14:18:33.5483|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 PUT http://localhost:5141/api/updateNote?6 - 404 0 - 4.3653ms
+2024-05-16 14:18:33.5483|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: PUT http://localhost:5141/api/updateNote, Response status code: 404
+2024-05-16 14:18:50.3717|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 PUT http://localhost:5141/api/updateNote?noteId=5 - application/json 120
+2024-05-16 14:18:50.3717|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 PUT http://localhost:5141/api/updateNote?noteId=5 - 404 0 - 0.7713ms
+2024-05-16 14:18:50.3717|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: PUT http://localhost:5141/api/updateNote, Response status code: 404
+2024-05-16 14:22:23.2923|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 PUT http://localhost:5141/api/updateNote5 - application/json 120
+2024-05-16 14:22:23.2923|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 PUT http://localhost:5141/api/updateNote5 - 404 0 - 5.0160ms
+2024-05-16 14:22:23.3176|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: PUT http://localhost:5141/api/updateNote5, Response status code: 404
+2024-05-16 14:22:29.5611|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 PUT http://localhost:5141/api/updateNote/5 - application/json 120
+2024-05-16 14:22:29.5716|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 PUT http://localhost:5141/api/updateNote/5 - 404 0 - 11.3725ms
+2024-05-16 14:22:29.5716|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: PUT http://localhost:5141/api/updateNote/5, Response status code: 404
+2024-05-16 14:22:55.1503|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 PUT http://localhost:5141/api/updateNote/5 - application/json 120
+2024-05-16 14:22:55.1503|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 PUT http://localhost:5141/api/updateNote/5 - 404 0 - 7.2950ms
+2024-05-16 14:22:55.1503|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: PUT http://localhost:5141/api/updateNote/5, Response status code: 404
+2024-05-16 14:23:03.3286|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 PUT http://localhost:5141/api/updateNote5 - application/json 120
+2024-05-16 14:23:03.3386|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 PUT http://localhost:5141/api/updateNote5 - 404 0 - 10.8801ms
+2024-05-16 14:23:03.4197|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: PUT http://localhost:5141/api/updateNote5, Response status code: 404
+2024-05-16 14:23:26.4338|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 PUT http://localhost:5141/api/updateNote 5 - application/json 120
+2024-05-16 14:23:26.4338|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.NoteController.UpdateNote (FundooNotes)'
+2024-05-16 14:23:26.4338|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "UpdateNote", controller = "Note"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateNote(Int32, ModelLayer.Notes.CreateNoteModel) on controller FundooNotes.Controllers.NoteController (FundooNotes).
+2024-05-16 14:23:26.5022|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'ModelLayer.Response.ResponseDataModel`1[[ModelLayer.NotesModel.NoteResponse, ModelLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-16 14:23:26.5022|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.NoteController.UpdateNote (FundooNotes) in 61.4549ms
+2024-05-16 14:23:26.5022|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.NoteController.UpdateNote (FundooNotes)'
+2024-05-16 14:23:26.5022|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 PUT http://localhost:5141/api/updateNote 5 - 200 - application/json;+charset=utf-8 69.5029ms
+2024-05-16 14:26:41.3810|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/api/showArchived - - -
+2024-05-16 14:26:41.3810|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.NoteController.GetArchivedNotes (FundooNotes)'
+2024-05-16 14:26:41.3985|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetArchivedNotes", controller = "Note"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetArchivedNotes() on controller FundooNotes.Controllers.NoteController (FundooNotes).
+2024-05-16 14:26:41.4139|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'ModelLayer.Response.ResponseDataModel`1[[System.Collections.Generic.IEnumerable`1[[ModelLayer.NotesModel.NoteResponse, ModelLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-05-16 14:26:41.4139|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.NoteController.GetArchivedNotes (FundooNotes) in 15.4657ms
+2024-05-16 14:26:41.4139|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.NoteController.GetArchivedNotes (FundooNotes)'
+2024-05-16 14:26:41.4139|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/api/showArchived - 200 - application/json;+charset=utf-8 33.8826ms
+2024-05-16 14:29:24.3180|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5141/api/addLabel - application/json 47
+2024-05-16 14:29:24.3223|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.LabelController.AddLabel (FundooNotes)'
+2024-05-16 14:29:24.3223|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "AddLabel", controller = "Label"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddLabel(ModelLayer.NotesModel.CreateLabelModel) on controller FundooNotes.Controllers.LabelController (FundooNotes).
+2024-05-16 14:29:24.3601|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'ModelLayer.Response.ResponseStringModel'.
+2024-05-16 14:29:24.3601|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.LabelController.AddLabel (FundooNotes) in 26.0283ms
+2024-05-16 14:29:24.3601|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.LabelController.AddLabel (FundooNotes)'
+2024-05-16 14:29:24.3601|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5141/api/addLabel - 200 - application/json;+charset=utf-8 42.9513ms
+2024-05-16 14:33:55.7482|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/api/showLabels - - -
+2024-05-16 14:33:55.7482|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-16 14:33:55.7482|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged.
+2024-05-16 14:33:55.7482|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/api/showLabels - 401 0 - 8.0318ms
+2024-05-16 14:34:02.4877|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/api/showLabels - - -
+2024-05-16 14:34:02.4877|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.LabelController.GetAllLabelbyId (FundooNotes)'
+2024-05-16 14:34:02.4877|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAllLabelbyId", controller = "Label"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllLabelbyId() on controller FundooNotes.Controllers.LabelController (FundooNotes).
+2024-05-16 14:34:02.5067|INFO|FundooNotes.Controllers.LabelController|Get notes by Id
+2024-05-16 14:34:02.5215|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'ModelLayer.Response.ResponseDataModel`1[[System.Collections.Generic.IEnumerable`1[[RepositoryLayer.Entities.Label, RepositoryLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-05-16 14:34:02.5215|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.LabelController.GetAllLabelbyId (FundooNotes) in 22.2814ms
+2024-05-16 14:34:02.5215|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.LabelController.GetAllLabelbyId (FundooNotes)'
+2024-05-16 14:34:02.5215|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/api/showLabels - 200 - application/json;+charset=utf-8 37.8828ms
+2024-05-16 14:35:32.5154|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/api/showLabels 3 - - -
+2024-05-16 14:35:32.5154|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/api/showLabels 3 - 404 0 - 4.7634ms
+2024-05-16 14:35:32.5154|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5141/api/showLabels%203, Response status code: 404
+2024-05-16 14:35:44.2609|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/api/showNotes 3 - - -
+2024-05-16 14:35:44.2609|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-16 14:35:44.2609|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged.
+2024-05-16 14:35:44.2609|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/api/showNotes 3 - 401 0 - 4.0030ms
+2024-05-16 14:35:52.8649|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/api/showNotes 3 - - -
+2024-05-16 14:35:52.8649|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.LabelController.GetAllNotebyId (FundooNotes)'
+2024-05-16 14:35:52.8649|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAllNotebyId", controller = "Label"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllNotebyId(Int32) on controller FundooNotes.Controllers.LabelController (FundooNotes).
+2024-05-16 14:35:52.8864|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'ModelLayer.Response.ResponseDataModel`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-05-16 14:35:52.9088|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.LabelController.GetAllNotebyId (FundooNotes) in 35.9572ms
+2024-05-16 14:35:52.9088|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.LabelController.GetAllNotebyId (FundooNotes)'
+2024-05-16 14:35:52.9088|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/api/showNotes 3 - 200 - application/json;+charset=utf-8 44.9216ms
+2024-05-16 14:38:51.7436|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5141/api/addCollaboration 3 - application/json 38
+2024-05-16 14:38:51.7436|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint '405 HTTP Method Not Supported'
+2024-05-16 14:38:51.7436|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint '405 HTTP Method Not Supported'
+2024-05-16 14:38:51.7436|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5141/api/addCollaboration 3 - 405 0 - 8.4295ms
+2024-05-16 14:39:32.0487|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5141/api/addCollaboration  - application/json 38
+2024-05-16 14:39:32.0588|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint '405 HTTP Method Not Supported'
+2024-05-16 14:39:32.0588|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint '405 HTTP Method Not Supported'
+2024-05-16 14:39:32.0588|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5141/api/addCollaboration  - 405 0 - 11.8080ms
+2024-05-16 14:39:43.4236|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5141/api/addCollaboration - application/json 38
+2024-05-16 14:39:43.4236|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint '405 HTTP Method Not Supported'
+2024-05-16 14:39:43.4263|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint '405 HTTP Method Not Supported'
+2024-05-16 14:39:43.4263|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5141/api/addCollaboration - 405 0 - 3.1908ms
