@@ -52,7 +52,7 @@ builder.Services.AddSingleton<IDistributedCache, CacheService>(sp =>
 
 builder.Services.AddDistributedMemoryCache();
 
-// Add services to the container.
+//Add services to the container.
 builder.Services.AddControllers();
 
 var key = Encoding.ASCII.GetBytes(builder.Configuration["Jwt:SecretKey"]);

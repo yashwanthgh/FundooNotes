@@ -31,7 +31,7 @@ namespace RepositoryLayer.Services
             parameter.Add("IsArchived", notes.IsArchived, DbType.Boolean);
             parameter.Add("IsDeleted", notes.IsDeleted, DbType.Boolean);
             parameter.Add("UserId", userId, DbType.Int64);
-            var selectQuery = @"SELECT * FROM Notes";
+            var selectQuery = @"SELECT * FROM Notes Where UserID = "+ userId;
             IEnumerable<NoteResponse> getNotes; 
 
             using(var connection = _context.CreateConnection())
@@ -39,7 +39,10 @@ namespace RepositoryLayer.Services
                 await connection.ExecuteAsync("spInsertNote", parameter, commandType: CommandType.StoredProcedure);
                 getNotes = await connection.QueryAsync<NoteResponse>(selectQuery, parameter);
             }
-            return getNotes.ToList();
+            if (getNotes != null)
+                return getNotes.ToList();
+            else
+                throw new Exception("Empty no data found");
         }
 
         public async Task<NoteResponse> GetAllNotebyUserId(int NoteId, int UserId)
@@ -88,13 +91,13 @@ namespace RepositoryLayer.Services
             parameter.Add("IsDeleted", updatedNote.IsDeleted, DbType.Boolean);
             parameter.Add("NoteId", noteId, DbType.Int64);
             parameter.Add("UserId", userId, DbType.Int64);
-            var selectQuery = @"SELECT * FROM Notes Where UserId = @UserId";
+            var selectQuery = @"SELECT * FROM Notes Where NoteId = @NoteId";
             NoteResponse? getNotes;
 
             using (var connection = _context.CreateConnection())
             {
                 await connection.ExecuteAsync("spUpdateNote", parameter, commandType: CommandType.StoredProcedure);
-                getNotes = await connection.QueryFirstOrDefaultAsync(selectQuery, parameter);
+                getNotes = await connection.QueryFirstOrDefaultAsync<NoteResponse>(selectQuery, parameter);
             }
             if (getNotes != null)
                 return getNotes;
