@@ -22,7 +22,7 @@ namespace RepositoryLayer.Services
             _cache = cache;
         }
 
-        public async Task<IEnumerable<NoteResponse>> CreateNote(CreateNoteModel notes, int userId)
+        public async Task<NoteResponse> CreateNote(CreateNoteModel notes, int userId)
         {
             var parameter = new DynamicParameters();
             parameter.Add("Description", notes.Description, DbType.String);
@@ -31,18 +31,22 @@ namespace RepositoryLayer.Services
             parameter.Add("IsArchived", notes.IsArchived, DbType.Boolean);
             parameter.Add("IsDeleted", notes.IsDeleted, DbType.Boolean);
             parameter.Add("UserId", userId, DbType.Int64);
-            var selectQuery = @"SELECT * FROM Notes Where UserID = "+ userId;
-            IEnumerable<NoteResponse> getNotes; 
 
-            using(var connection = _context.CreateConnection())
+            using (var connection = _context.CreateConnection())
             {
-                await connection.ExecuteAsync("spInsertNote", parameter, commandType: CommandType.StoredProcedure);
-                getNotes = await connection.QueryAsync<NoteResponse>(selectQuery, parameter);
+                int noteId = await connection.ExecuteScalarAsync<int>("spInsertNote", parameter, commandType: CommandType.StoredProcedure);
+                 //= parameter.Get<int>("NoteId");
+                // Fetch the inserted note
+                var selectQuery = @"SELECT * FROM Notes WHERE NoteID = @NoteID";
+                var insertedNote = await connection.QueryFirstOrDefaultAsync<NoteResponse>(selectQuery, new { NoteID = noteId });
+
+                if (insertedNote == null)
+                {
+                    throw new Exception("Failed to retrieve the inserted note.");
+                }
+
+                return insertedNote;
             }
-            if (getNotes != null)
-                return getNotes.ToList();
-            else
-                throw new Exception("Empty no data found");
         }
 
         public async Task<NoteResponse> GetAllNotebyUserId(int NoteId, int UserId)

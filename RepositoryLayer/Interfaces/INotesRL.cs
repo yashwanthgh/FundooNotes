@@ -10,7 +10,7 @@ namespace RepositoryLayer.Interfaces
 {
     public interface INotesRL
     {
-        public Task<IEnumerable<NoteResponse>> CreateNote(CreateNoteModel notes, int userId);
+        public Task<NoteResponse> CreateNote(CreateNoteModel notes, int userId);
         public Task<NoteResponse> GetAllNotebyUserId(int NoteId, int userId);
         public Task<IEnumerable<NoteResponse>> GetAllNotes(int userid);
         public Task<NoteResponse> UpdateNote(int noteId, int userId, CreateNoteModel updatedNote);

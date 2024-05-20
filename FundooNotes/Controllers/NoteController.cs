@@ -36,20 +36,19 @@ namespace FundooNotes.Controllers
                 var userIdClaim = User.FindFirstValue("Id");
                 int userId = Convert.ToInt32(userIdClaim);
 
-                var getNotes = await _notes.CreateNote(createNote, userId);
+                var newNote = await _notes.CreateNote(createNote, userId);
 
                 _logger.LogInformation("Note created!");
 
-                var options = new DistributedCacheEntryOptions();
+                // Invalidate the user's notes cache
+                var userNotesCacheKey = $"Notes_{userId}";
+                await _cache.RemoveAsync(userNotesCacheKey);
 
-                var specificNoteCacheKey = $"Notes_{userId}";
-                await _cache.SetAsync(specificNoteCacheKey, JsonSerializer.SerializeToUtf8Bytes(getNotes), options);
-
-                var response = new ResponseDataModel<IEnumerable<NoteResponse>>
+                var response = new ResponseDataModel<NoteResponse>
                 {
                     Success = true,
                     Message = "Note Created Successfully",
-                    Data = getNotes
+                    Data = newNote
                 };
 
                 return Ok(response);
@@ -65,6 +64,7 @@ namespace FundooNotes.Controllers
             }
         }
 
+
         [Authorize]
         [HttpPut("updateNote/{noteId}")]
         public async Task<IActionResult> UpdateNote(int noteId, CreateNoteModel update)
@@ -73,28 +73,27 @@ namespace FundooNotes.Controllers
             {
                 var userIdClaim = User.FindFirstValue("Id");
                 int userId = Convert.ToInt32(userIdClaim);
+
+                // Invalidate the specific note cache
                 var specificNoteCacheKey = $"Note_{noteId}";
                 await _cache.RemoveAsync(specificNoteCacheKey);
 
+                // Invalidate the user's notes cache
+                var userNotesCacheKey = $"Notes_{userId}";
+                await _cache.RemoveAsync(userNotesCacheKey);
+
                 var updatedNote = await _notes.UpdateNote(noteId, userId, update);
-                var options = new DistributedCacheEntryOptions();
-                if (updatedNote != null)
-                {
-                    var jsonSerializerOptions = new JsonSerializerOptions { PropertyNameCaseInsensitive = true }; 
-                    var serializedNote = JsonSerializer.Serialize(updatedNote, jsonSerializerOptions);
-                    await _cache.SetStringAsync(specificNoteCacheKey, serializedNote, options);
-                }
 
                 _logger.LogInformation("Note updated successfully!");
 
-                var updateResponse = new ResponseDataModel<NoteResponse>
+                var response = new ResponseDataModel<NoteResponse>
                 {
                     Success = true,
                     Message = "Note updated successfully",
                     Data = updatedNote
                 };
 
-                return Ok(updateResponse);
+                return Ok(response);
             }
             catch (Exception ex)
             {
@@ -108,6 +107,7 @@ namespace FundooNotes.Controllers
         }
 
 
+
         [Authorize]
         [HttpDelete("deleteNote/{noteId}")]
         public async Task<IActionResult> DeleteNote(int noteId)
@@ -117,8 +117,13 @@ namespace FundooNotes.Controllers
                 var userIdClaim = User.FindFirstValue("Id");
                 int userId = Convert.ToInt32(userIdClaim);
 
+                // Invalidate the specific note cache
                 var specificNoteCacheKey = $"Note_{noteId}";
                 await _cache.RemoveAsync(specificNoteCacheKey);
+
+                // Invalidate the user's notes cache
+                var userNotesCacheKey = $"Notes_{userId}";
+                await _cache.RemoveAsync(userNotesCacheKey);
 
                 await _notes.DeleteNote(noteId, userId);
 
@@ -143,6 +148,7 @@ namespace FundooNotes.Controllers
         }
 
 
+
         [Authorize]
         [HttpGet("showNotes")]
         public async Task<IActionResult> DisplayNote()
@@ -159,7 +165,6 @@ namespace FundooNotes.Controllers
                 if (cachedNote != null)
                 {
                     var notesList = JsonSerializer.Deserialize<IEnumerable<NoteResponse>>(cachedNote);
-                    // var notesList = JsonSerializer.Deserialize<List<NoteResponse>>(cachedNote);
 
                     var response = new ResponseDataModel<IEnumerable<NoteResponse>>
                     {
@@ -175,13 +180,12 @@ namespace FundooNotes.Controllers
 
                 if (notes != null)
                 {
-                    var jsonSerializerOptions = new JsonSerializerOptions { PropertyNameCaseInsensitive = true }; 
+                    var jsonSerializerOptions = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
                     var serializedNote = JsonSerializer.Serialize(notes, jsonSerializerOptions);
-                    await _cache.SetStringAsync(key, serializedNote,
-                        new DistributedCacheEntryOptions
-                        {
-                            SlidingExpiration = TimeSpan.FromMinutes(10)
-                        });
+                    await _cache.SetStringAsync(key, serializedNote, new DistributedCacheEntryOptions
+                    {
+                        SlidingExpiration = TimeSpan.FromMinutes(10)
+                    });
 
                     var response = new ResponseDataModel<IEnumerable<NoteResponse>>
                     {
@@ -193,7 +197,7 @@ namespace FundooNotes.Controllers
                     return Ok(response);
                 }
 
-                return Ok(); 
+                return Ok();
             }
             catch (Exception ex)
             {
@@ -205,6 +209,7 @@ namespace FundooNotes.Controllers
                 });
             }
         }
+
 
         [Authorize]
         [HttpGet("showArchived")]
