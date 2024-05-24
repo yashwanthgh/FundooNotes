@@ -12,6 +12,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.Extensions.Caching.Distributed;
 using ServiceStack;
+using RepositoryLayer.Helper;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -42,7 +43,8 @@ builder.Services.AddScoped<ICollaborationBL, CollaborationServiceBL>();
 
 builder.Services.Configure<EmailSettingModel>(builder.Configuration.GetSection("SmtpSettings"));
 builder.Services.AddScoped(sp => sp.GetRequiredService<IOptions<EmailSettingModel>>().Value);
- 
+
+
 // Add Redis distributed cache
 builder.Services.AddSingleton<IDistributedCache, CacheService>(sp =>
 {

@@ -14,12 +14,10 @@ namespace RepositoryLayer.Services
     public class NotesServiceRL : INotesRL
     {
         private readonly DapperContext _context;
-        private readonly IDistributedCache _cache;
 
-        public NotesServiceRL(DapperContext context , IDistributedCache cache)
+        public NotesServiceRL(DapperContext context)
         {
             _context = context;
-            _cache = cache;
         }
 
         public async Task<NoteResponse> CreateNote(CreateNoteModel notes, int userId)
@@ -35,8 +33,7 @@ namespace RepositoryLayer.Services
             using (var connection = _context.CreateConnection())
             {
                 int noteId = await connection.ExecuteScalarAsync<int>("spInsertNote", parameter, commandType: CommandType.StoredProcedure);
-                 //= parameter.Get<int>("NoteId");
-                // Fetch the inserted note
+
                 var selectQuery = @"SELECT * FROM Notes WHERE NoteID = @NoteID";
                 var insertedNote = await connection.QueryFirstOrDefaultAsync<NoteResponse>(selectQuery, new { NoteID = noteId });
 
@@ -82,7 +79,6 @@ namespace RepositoryLayer.Services
                 await connection.ExecuteAsync("spDeleteNoteByIdAndUserId", parameter, commandType: CommandType.StoredProcedure);
 
             }
-            await _cache.RemoveAsync($"Notes_{userId}");
         }
 
         public async Task<NoteResponse> UpdateNote(int noteId, int userId, CreateNoteModel updatedNote)

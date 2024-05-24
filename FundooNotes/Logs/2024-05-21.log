@@ -1,0 +1,40 @@
+2024-05-21 11:36:27.0978|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Yash\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-21 11:36:27.3940|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141
+2024-05-21 11:36:27.3940|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-05-21 11:36:27.3940|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-05-21 11:36:27.3940|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Code\WebAPI\FundooNotes\FundooNotes
+2024-05-21 11:36:30.2290|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/swagger/index.html - - -
+2024-05-21 11:36:30.5982|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/swagger/index.html - 200 - text/html;charset=utf-8 384.3532ms
+2024-05-21 11:36:30.6111|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/_framework/aspnetcore-browser-refresh.js - - -
+2024-05-21 11:36:30.6111|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/_vs/browserLink - - -
+2024-05-21 11:36:30.6146|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 3.5197ms
+2024-05-21 11:36:30.6909|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 79.4268ms
+2024-05-21 11:36:30.7705|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/swagger/v1/swagger.json - - -
+2024-05-21 11:36:30.8866|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 116.0578ms
+2024-05-21 11:37:38.7198|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5141/api/createNote - application/json 123
+2024-05-21 11:37:38.7982|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect.
+2024-05-21 11:37:38.7982|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.NoteController.CreateNote (FundooNotes)'
+2024-05-21 11:37:38.8394|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "CreateNote", controller = "Note"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateNote(ModelLayer.Notes.CreateNoteModel) on controller FundooNotes.Controllers.NoteController (FundooNotes).
+2024-05-21 11:37:39.5694|INFO|FundooNotes.Controllers.NoteController|Note created!
+2024-05-21 11:37:39.6312|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing BadRequestObjectResult, writing value of type 'ModelLayer.Response.ResponseDataModel`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-05-21 11:37:39.6312|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.NoteController.CreateNote (FundooNotes) in 794.8735ms
+2024-05-21 11:37:39.6312|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.NoteController.CreateNote (FundooNotes)'
+2024-05-21 11:37:39.6312|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5141/api/createNote - 400 - application/json;+charset=utf-8 921.2878ms
+2024-05-21 11:38:18.1209|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Yash\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-21 11:38:18.3260|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141
+2024-05-21 11:38:18.3260|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-05-21 11:38:18.3260|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-05-21 11:38:18.3260|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Code\WebAPI\FundooNotes\FundooNotes
+2024-05-21 11:38:18.9499|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/swagger/index.html - - -
+2024-05-21 11:38:19.6247|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/swagger/index.html - 200 - text/html;charset=utf-8 688.9918ms
+2024-05-21 11:38:19.6413|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/_framework/aspnetcore-browser-refresh.js - - -
+2024-05-21 11:38:19.6496|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/_vs/browserLink - - -
+2024-05-21 11:38:19.6496|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 9.7253ms
+2024-05-21 11:38:19.6933|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 43.5846ms
+2024-05-21 11:38:19.8046|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/swagger/v1/swagger.json - - -
+2024-05-21 11:38:20.0093|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 204.7242ms
+2024-05-21 11:38:23.3208|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5141/api/createNote - application/json 123
+2024-05-21 11:38:23.3840|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect.
+2024-05-21 11:38:23.3840|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.NoteController.CreateNote (FundooNotes)'
+2024-05-21 11:38:23.4186|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "CreateNote", controller = "Note"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateNote(ModelLayer.Notes.CreateNoteModel) on controller FundooNotes.Controllers.NoteController (FundooNotes).
+2024-05-21 11:38:43.6581|INFO|FundooNotes.Controllers.NoteController|Note created!

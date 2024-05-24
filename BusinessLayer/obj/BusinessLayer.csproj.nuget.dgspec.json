@@ -183,6 +183,10 @@
               "target": "Package",
               "version": "[4.0.3, )"
             },
+            "Confluent.Kafka": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
             "Dapper": {
               "target": "Package",
               "version": "[2.1.35, )"
@@ -198,6 +202,14 @@
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             },
             "Portable.BouncyCastle": {
               "target": "Package",

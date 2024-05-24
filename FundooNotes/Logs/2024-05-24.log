@@ -1,0 +1,39 @@
+2024-05-24 07:55:20.5660|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Yash\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-24 07:55:20.7972|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141
+2024-05-24 07:55:20.7972|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-05-24 07:55:20.7972|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-05-24 07:55:20.7972|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Code\WebAPI\FundooNotes\FundooNotes
+2024-05-24 07:55:24.1911|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/swagger/index.html - - -
+2024-05-24 07:55:25.1279|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/swagger/index.html - 200 - text/html;charset=utf-8 950.5459ms
+2024-05-24 07:55:25.2302|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/_framework/aspnetcore-browser-refresh.js - - -
+2024-05-24 07:55:25.2321|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/_vs/browserLink - - -
+2024-05-24 07:55:25.2321|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 4.4972ms
+2024-05-24 07:55:25.3164|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 84.3182ms
+2024-05-24 07:55:25.4876|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/swagger/v1/swagger.json - - -
+2024-05-24 07:55:25.6435|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 155.9087ms
+2024-05-24 07:56:29.3014|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5141/api/register - application/json 134
+2024-05-24 07:56:29.3014|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect.
+2024-05-24 07:56:29.3014|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.RegisterController.UserRegistration (FundooNotes)'
+2024-05-24 07:56:29.3425|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "UserRegistration", controller = "Register"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserRegistration(ModelLayer.RegistrationModel.RegisterUserModel) on controller FundooNotes.Controllers.RegisterController (FundooNotes).
+2024-05-24 08:01:23.5093|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Yash\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-24 08:01:23.6576|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5141
+2024-05-24 08:01:23.6576|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-05-24 08:01:23.6576|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-05-24 08:01:23.6576|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Code\WebAPI\FundooNotes\FundooNotes
+2024-05-24 08:01:25.1983|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/swagger/index.html - - -
+2024-05-24 08:01:25.6929|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/swagger/index.html - 200 - text/html;charset=utf-8 504.1898ms
+2024-05-24 08:01:25.7029|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/_framework/aspnetcore-browser-refresh.js - - -
+2024-05-24 08:01:25.7135|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 11.2033ms
+2024-05-24 08:01:25.7251|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/_vs/browserLink - - -
+2024-05-24 08:01:25.7664|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 41.3200ms
+2024-05-24 08:01:25.8946|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5141/swagger/v1/swagger.json - - -
+2024-05-24 08:01:26.0145|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5141/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 120.0105ms
+2024-05-24 08:01:32.4675|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5141/api/register - application/json 134
+2024-05-24 08:01:32.4780|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect.
+2024-05-24 08:01:32.4780|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.RegisterController.UserRegistration (FundooNotes)'
+2024-05-24 08:01:32.5166|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "UserRegistration", controller = "Register"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserRegistration(ModelLayer.RegistrationModel.RegisterUserModel) on controller FundooNotes.Controllers.RegisterController (FundooNotes).
+2024-05-24 08:01:38.0227|INFO|FundooNotes.Controllers.RegisterController|User Registration Successful
+2024-05-24 08:01:38.0227|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'ModelLayer.Response.ResponseStringModel'.
+2024-05-24 08:01:38.0391|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.RegisterController.UserRegistration (FundooNotes) in 5517.2684ms
+2024-05-24 08:01:38.0391|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.RegisterController.UserRegistration (FundooNotes)'
+2024-05-24 08:01:38.0391|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5141/api/register - 200 - application/json;+charset=utf-8 5573.7649ms

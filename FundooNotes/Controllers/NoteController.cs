@@ -106,8 +106,6 @@ namespace FundooNotes.Controllers
             }
         }
 
-
-
         [Authorize]
         [HttpDelete("deleteNote/{noteId}")]
         public async Task<IActionResult> DeleteNote(int noteId)
@@ -146,8 +144,6 @@ namespace FundooNotes.Controllers
                 });
             }
         }
-
-
 
         [Authorize]
         [HttpGet("showNotes")]
@@ -210,7 +206,6 @@ namespace FundooNotes.Controllers
             }
         }
 
-
         [Authorize]
         [HttpGet("showArchived")]
         public async Task<IActionResult> GetArchivedNotes()
@@ -234,7 +229,6 @@ namespace FundooNotes.Controllers
                     };
                     return Ok(response);
                 }
-
                 var notes = await _notes.GetAllArchivedNotes(userId);
 
                 if (notes != null)
@@ -335,6 +329,5 @@ namespace FundooNotes.Controllers
                 });
             }
         }
-
     }
 }
